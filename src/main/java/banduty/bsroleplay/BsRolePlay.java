@@ -1,22 +1,44 @@
 package banduty.bsroleplay;
 
+import banduty.bsroleplay.block.ModBlocks;
+import banduty.bsroleplay.block.entity.ModBlockEntities;
+import banduty.bsroleplay.entity.ModEntities;
+import banduty.bsroleplay.entity.custom.HolyCloudEntity;
+import banduty.bsroleplay.item.ModItemGroups;
+import banduty.bsroleplay.item.ModItems;
+import banduty.bsroleplay.recipe.ModRecipes;
+import banduty.bsroleplay.screen.ModScreenHandlers;
+import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib.GeckoLib;
 
 public class BsRolePlay implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("bsroleplay");
+	public static final String MOD_ID = "bsroleplay";
+	public static final Logger LOGGER = LoggerFactory.getLogger("bsroleplay");
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+
+		ModSounds.registerSounds();
+
+		ModRecipes.registerRecipes();
+
+		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.HOLY_CLOUD, HolyCloudEntity.createHolyCloudAttributes());
+
+		ModEntities.registerModEntities();
+
+		ModScreenHandlers.registerScreenHandlers();
+
+		GeckoLib.initialize();
 	}
 }
