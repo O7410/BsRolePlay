@@ -2,6 +2,9 @@
   "item.bsroleplay.pirate_helmet": "Tricorne",
   "item.bsroleplay.pirate_chestplate": "Vêtements de Pirates",
 
+  "item.bsroleplay.hook": "Crochet",
+  "tooltip.bsroleplay.hook.tooltip": "Lorsque vous faites un clic droit, un Evoker Fangs apparaît",
+
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc": "Disque de Musique",
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc.desc": "Shivita - Dolor En El Pecho Remix",
 

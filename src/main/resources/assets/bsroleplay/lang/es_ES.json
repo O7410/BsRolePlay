@@ -2,6 +2,9 @@
   "item.bsroleplay.pirate_helmet": "Tricornio",
   "item.bsroleplay.pirate_chestplate": "Vestimenta de Pirata",
 
+  "item.bsroleplay.hook": "Garfio",
+  "tooltip.bsroleplay.hook.tooltip": "Cuando haces clic derecho, aparece unos Colmillos de Evocador",
+
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc": "Disco de Música",
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc.desc": "Shivita - Dolor En El Pecho Remix",
 

@@ -2,10 +2,7 @@ package banduty.bsroleplay.item;
 
 import banduty.bsroleplay.BsRolePlay;
 import banduty.bsroleplay.entity.ModEntities;
-import banduty.bsroleplay.item.custom.HolySeeds;
-import banduty.bsroleplay.item.custom.HolyWeapon;
-import banduty.bsroleplay.item.custom.JudgeHammer;
-import banduty.bsroleplay.item.custom.PirateArmorItem;
+import banduty.bsroleplay.item.custom.*;
 import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -28,7 +25,7 @@ public class ModItems {
             new SwordItem(ModToolMaterial.POLICE, 3, 1f, new FabricItemSettings().maxDamage(0).rarity(Rarity.UNCOMMON)));
 
     public static final Item HOLY_WEAPON = registerItem("holy_weapon",
-            new HolyWeapon(new FabricItemSettings().maxCount(1).maxDamage(5).rarity(Rarity.EPIC)));
+            new HolyWeapon(new FabricItemSettings().maxCount(1).rarity(Rarity.EPIC)));
 
     public static final Item JUDGE_CHESTPLATE = registerItem("judge_chestplate",
             new ArmorItem(ModArmorMaterials.JUDGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
@@ -56,6 +53,8 @@ public class ModItems {
             new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PIRATE_CHESTPLATE = registerItem("pirate_chestplate",
             new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item HOOK = registerItem("hook",
+            new Hook(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(HOLY_SEEDS);

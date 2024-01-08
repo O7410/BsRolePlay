@@ -1,4 +1,4 @@
-// 1.20.4	2024-01-08T19:27:40.5553484	BsRolePlay/Recipes
+// 1.20.4	2024-01-08T23:19:19.4849444	BsRolePlay/Recipes
 3d8f3609d08c5052b943a50e9eded0dbe56b549e data\bsroleplay\recipes\judge_chestplate.json
 18727dd16b60ffbc528fa574d79a870145f7a87b data\bsroleplay\recipes\police_chestplate.json
 9d80542fc4f722083c17f1823270c4eb19273203 data\bsroleplay\advancements\recipes\misc\police_leggings.json
@@ -21,9 +21,11 @@ f44f71a2b8ea0b7afd0e2511757633d2be8f494c data\bsroleplay\advancements\recipes\mi
 3879965bb3cf41efa8073a13d8ab42ae584849d8 data\bsroleplay\recipes\police_baton.json
 72422350000ba4e03c9eee455f3e489cf8f008ba data\bsroleplay\advancements\recipes\misc\judge_hammer.json
 027ef999a047ffdcc675c7200661f570c5fe95a0 data\bsroleplay\advancements\recipes\misc\police_chestplate.json
+e8c836e2c14eac643b3f26dcc80258de0fdb07b1 data\bsroleplay\advancements\recipes\misc\hook.json
 e926f017b8dc1ec336ce25211500f9fbbd4fcb01 data\bsroleplay\recipes\judge_leggings.json
 4fc871508ee64fbbe34dd783d1b7b1ef2711c45b data\bsroleplay\recipes\holy_weapon.json
 d01643b0140839b56e2c43a80b7c63511d983bce data\bsroleplay\recipes\police_leggings.json
 9691b480233a6c088e8721202a86fff6c11e9df5 data\bsroleplay\recipes\judge_boots.json
+d106d4dcb3a7798644bc0b9cb8c312ab4ed8cc5d data\bsroleplay\recipes\hook.json
 c1e2f4e96deb57f8d69d8d224f7ea24f3a8f263a data\bsroleplay\advancements\recipes\misc\judge_boots.json
 52982e8231dc47e201ccd18e7545724beef8f1ff data\bsroleplay\advancements\recipes\misc\judge_chestplate.json

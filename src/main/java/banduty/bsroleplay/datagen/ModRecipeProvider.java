@@ -169,5 +169,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.RED_WOOL), conditionsFromItem(Items.RED_WOOL))
                 .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.PIRATE_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOOK, 1)
+                .pattern(" GG")
+                .pattern(" G ")
+                .pattern("III")
+                .input('I', Items.IRON_INGOT)
+                .input('G', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HOOK)));
     }
 }
