@@ -1,4 +1,4 @@
-// 1.20.4	2024-01-08T00:14:25.2390438	BsRolePlay/Recipes
+// 1.20.4	2024-01-08T19:27:40.5553484	BsRolePlay/Recipes
 3d8f3609d08c5052b943a50e9eded0dbe56b549e data\bsroleplay\recipes\judge_chestplate.json
 18727dd16b60ffbc528fa574d79a870145f7a87b data\bsroleplay\recipes\police_chestplate.json
 9d80542fc4f722083c17f1823270c4eb19273203 data\bsroleplay\advancements\recipes\misc\police_leggings.json
@@ -6,14 +6,18 @@ f4d60b0fd512fc71bc4391a85c26bb00cc2d868c data\bsroleplay\advancements\recipes\mi
 8cd8c8fdf6afc91c51b49ac028223c392b467618 data\bsroleplay\recipes\police_helmet.json
 8f8d16dd8ecfceb4cbafa01f85a4b7428ce646d6 data\bsroleplay\advancements\recipes\misc\police_boots.json
 1c76813ce9aab43fb4bfdebe8b20aad638a883a6 data\bsroleplay\advancements\recipes\misc\holy_weapon.json
+60a687f3d9d092179120a7daed6b1f3f9ed13fbb data\bsroleplay\advancements\recipes\misc\pirate_helmet.json
 7900329e0fa5cde2b0b7806dc75232cfdb657a00 data\bsroleplay\advancements\recipes\misc\halo.json
 bd7dc5d0345a61a337216998b43e010fdbfccefb data\bsroleplay\recipes\judge_hammer.json
 9540a450effc624348646952b6794dac4e21c562 data\bsroleplay\advancements\recipes\misc\police_helmet.json
 363a6018fb43ae7249a8338040fda2a4bb10cf26 data\bsroleplay\recipes\holy_cloud_generator_station.json
 e7754fa57a3df8b3b1df7d432d26204108a0f2e1 data\bsroleplay\recipes\police_boots.json
+8bd5e093f140024754278c94ae24281cc0a16a5f data\bsroleplay\advancements\recipes\misc\pirate_chestplate.json
 1e15a8b90a61547cc457603359a5b20585b72be2 data\bsroleplay\recipes\halo.json
+c9840618489ad414df17fcdd70aed108471be766 data\bsroleplay\recipes\pirate_helmet.json
 f44f71a2b8ea0b7afd0e2511757633d2be8f494c data\bsroleplay\advancements\recipes\misc\judge_leggings.json
 8773301c0894b1c0f7b58c726a9417fd4ffcf611 data\bsroleplay\advancements\recipes\misc\police_baton.json
+2750bda4d560e17d3bcd04bf514b79464efb67cb data\bsroleplay\recipes\pirate_chestplate.json
 3879965bb3cf41efa8073a13d8ab42ae584849d8 data\bsroleplay\recipes\police_baton.json
 72422350000ba4e03c9eee455f3e489cf8f008ba data\bsroleplay\advancements\recipes\misc\judge_hammer.json
 027ef999a047ffdcc675c7200661f570c5fe95a0 data\bsroleplay\advancements\recipes\misc\police_chestplate.json

@@ -145,5 +145,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DARK_OAK_WOOD), conditionsFromItem(Items.DARK_OAK_WOOD))
                 .criterion(hasItem(ModItems.HOLY_WEAPON), conditionsFromItem(ModItems.HOLY_WEAPON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HOLY_CLOUD_GENERATOR_STATION)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PIRATE_HELMET, 1)
+                .pattern(" I ")
+                .pattern("IBI")
+                .pattern("RRR")
+                .input('I', Items.GOLD_INGOT)
+                .input('B', Items.BLACK_WOOL)
+                .input('R', Items.RED_WOOL)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
+                .criterion(hasItem(Items.RED_WOOL), conditionsFromItem(Items.RED_WOOL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PIRATE_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PIRATE_CHESTPLATE, 1)
+                .pattern("R R")
+                .pattern("RIR")
+                .pattern("IWI")
+                .input('I', Items.GOLD_INGOT)
+                .input('R', Items.RED_WOOL)
+                .input('W', Items.WHITE_WOOL)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.RED_WOOL), conditionsFromItem(Items.RED_WOOL))
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PIRATE_CHESTPLATE)));
     }
 }
