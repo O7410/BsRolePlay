@@ -44,6 +44,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.PIRATE_HELMET);
                         entries.add(ModItems.PIRATE_CHESTPLATE);
+                        entries.add(ModItems.PIRATE_LEGGINGS);
 
                         entries.add(ModItems.HOOK);
 

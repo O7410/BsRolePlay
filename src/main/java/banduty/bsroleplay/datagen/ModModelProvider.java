@@ -52,6 +52,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PIRATE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PIRATE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PIRATE_LEGGINGS));
 
         itemModelGenerator.register(ModItems.HOOK, Models.HANDHELD);
     }

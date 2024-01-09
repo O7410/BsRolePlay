@@ -18,7 +18,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     HOLY("holy", 25, new int[] { 1, 0, 0, 0 }, 19,
             SoundEvents.BLOCK_AMETHYST_BLOCK_PLACE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.HOLY_WEAPON)),
 
-    PIRATE("pirate", 25, new int[] { 2, 5, 0, 0 }, 19,
+    PIRATE("pirate", 25, new int[] { 2, 6, 4, 0 }, 19,
     SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.HOLY_WEAPON))
 
     ;

@@ -53,6 +53,8 @@ public class ModItems {
             new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PIRATE_CHESTPLATE = registerItem("pirate_chestplate",
             new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item PIRATE_LEGGINGS = registerItem("pirate_leggings",
+            new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item HOOK = registerItem("hook",
             new Hook(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE)));
 
