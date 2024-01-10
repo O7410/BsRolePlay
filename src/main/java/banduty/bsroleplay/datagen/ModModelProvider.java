@@ -61,5 +61,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HOOK, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CROWN));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MINI_CROWN));
     }
 }

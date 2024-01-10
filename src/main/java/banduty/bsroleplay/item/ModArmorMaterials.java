@@ -3,6 +3,7 @@ package banduty.bsroleplay.item;
 import banduty.bsroleplay.BsRolePlay;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -21,8 +22,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
     PIRATE("pirate", 25, new int[] { 2, 6, 4, 0 }, 19,
     SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.HOLY_WEAPON)),
 
-    KING("king", 25, new int[] { 2, 6, 4, 0 }, 19,
-    SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.CROWN))
+    KING("king", 25, new int[] { 3, 0, 0, 0 }, 19,
+    SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(Items.GOLD_INGOT))
 
     ;
 

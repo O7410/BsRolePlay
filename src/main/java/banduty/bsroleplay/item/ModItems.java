@@ -69,6 +69,9 @@ public class ModItems {
     public static final Item CROWN = registerItem("crown",
             new CrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
+    public static final Item MINI_CROWN = registerItem("mini_crown",
+            new MiniCrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(HOLY_SEEDS);
     }

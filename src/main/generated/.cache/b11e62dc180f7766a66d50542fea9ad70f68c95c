@@ -1,4 +1,4 @@
-// 1.20.4	2024-01-10T11:37:36.3238249	BsRolePlay/Recipes
+// 1.20.4	2024-01-10T16:47:59.550136	BsRolePlay/Recipes
 3d8f3609d08c5052b943a50e9eded0dbe56b549e data\bsroleplay\recipes\judge_chestplate.json
 18727dd16b60ffbc528fa574d79a870145f7a87b data\bsroleplay\recipes\police_chestplate.json
 03b785590f886c0cf9f246623de5af2e10aff915 data\bsroleplay\recipes\blue_pirate_chestplate.json
@@ -12,6 +12,7 @@ f4d60b0fd512fc71bc4391a85c26bb00cc2d868c data\bsroleplay\advancements\recipes\mi
 7900329e0fa5cde2b0b7806dc75232cfdb657a00 data\bsroleplay\advancements\recipes\misc\halo.json
 9eb7f8902a6c4d9f0ee5e06ad137c33acbd72354 data\bsroleplay\advancements\recipes\misc\blue_pirate_leggings.json
 bd7dc5d0345a61a337216998b43e010fdbfccefb data\bsroleplay\recipes\judge_hammer.json
+5e67f4b3830963a473e80fff27e021b41c7eb8e0 data\bsroleplay\recipes\mini_crown.json
 9540a450effc624348646952b6794dac4e21c562 data\bsroleplay\advancements\recipes\misc\police_helmet.json
 363a6018fb43ae7249a8338040fda2a4bb10cf26 data\bsroleplay\recipes\holy_cloud_generator_station.json
 e7754fa57a3df8b3b1df7d432d26204108a0f2e1 data\bsroleplay\recipes\police_boots.json
@@ -39,3 +40,4 @@ d106d4dcb3a7798644bc0b9cb8c312ab4ed8cc5d data\bsroleplay\recipes\hook.json
 c1e2f4e96deb57f8d69d8d224f7ea24f3a8f263a data\bsroleplay\advancements\recipes\misc\judge_boots.json
 6adae38ba862acf7d1d3f70a8ecf0b97324d04e7 data\bsroleplay\advancements\recipes\misc\red_pirate_helmet.json
 52982e8231dc47e201ccd18e7545724beef8f1ff data\bsroleplay\advancements\recipes\misc\judge_chestplate.json
+debc7f4c5a31baf9cae5d328ac7b129aa6782651 data\bsroleplay\advancements\recipes\misc\mini_crown.json

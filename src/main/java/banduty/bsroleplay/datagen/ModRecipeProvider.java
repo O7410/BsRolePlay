@@ -237,5 +237,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.CROWN)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MINI_CROWN, 1)
+                .pattern("   ")
+                .pattern("GRG")
+                .pattern("GGG")
+                .input('R', Items.REDSTONE)
+                .input('G', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MINI_CROWN)));
     }
 }

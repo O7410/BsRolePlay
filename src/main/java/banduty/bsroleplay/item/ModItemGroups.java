@@ -53,6 +53,7 @@ public class ModItemGroups {
                         entries.add(ModItems.HOOK);
 
                         entries.add(ModItems.CROWN);
+                        entries.add(ModItems.MINI_CROWN);
 
                     }).build());
 
