@@ -42,11 +42,17 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.HOLY_CLOUD_EGG_BLOCK);
 
-                        entries.add(ModItems.PIRATE_HELMET);
-                        entries.add(ModItems.PIRATE_CHESTPLATE);
-                        entries.add(ModItems.PIRATE_LEGGINGS);
+                        entries.add(ModItems.RED_PIRATE_HELMET);
+                        entries.add(ModItems.RED_PIRATE_CHESTPLATE);
+                        entries.add(ModItems.RED_PIRATE_LEGGINGS);
+
+                        entries.add(ModItems.BLUE_PIRATE_HELMET);
+                        entries.add(ModItems.BLUE_PIRATE_CHESTPLATE);
+                        entries.add(ModItems.BLUE_PIRATE_LEGGINGS);
 
                         entries.add(ModItems.HOOK);
+
+                        entries.add(ModItems.CROWN);
 
                     }).build());
 

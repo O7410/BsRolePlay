@@ -44,19 +44,30 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item HALO = registerItem("halo",
-            new ArmorItem(ModArmorMaterials.HOLY, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
+            new HaloItem(ModArmorMaterials.HOLY, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static final Item HOLY_CLOUD_SPAWN_EGG = registerItem("holy_cloud_spawn_egg",
             new SpawnEggItem(ModEntities.HOLY_CLOUD, 0xCDCDCD, 0xFCC861, new FabricItemSettings()));
 
-    public static final Item PIRATE_HELMET = registerItem("pirate_helmet",
-            new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item PIRATE_CHESTPLATE = registerItem("pirate_chestplate",
-            new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item PIRATE_LEGGINGS = registerItem("pirate_leggings",
-            new PirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RED_PIRATE_HELMET = registerItem("red_pirate_helmet",
+            new RedPirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RED_PIRATE_CHESTPLATE = registerItem("red_pirate_chestplate",
+            new RedPirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RED_PIRATE_LEGGINGS = registerItem("red_pirate_leggings",
+            new RedPirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item BLUE_PIRATE_HELMET = registerItem("blue_pirate_helmet",
+            new BluePirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BLUE_PIRATE_CHESTPLATE = registerItem("blue_pirate_chestplate",
+            new BluePirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BLUE_PIRATE_LEGGINGS = registerItem("blue_pirate_leggings",
+            new BluePirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
     public static final Item HOOK = registerItem("hook",
             new Hook(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE)));
+
+    public static final Item CROWN = registerItem("crown",
+            new CrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(HOLY_SEEDS);

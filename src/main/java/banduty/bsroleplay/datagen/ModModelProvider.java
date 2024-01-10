@@ -50,10 +50,16 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PIRATE_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PIRATE_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PIRATE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RED_PIRATE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RED_PIRATE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RED_PIRATE_LEGGINGS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_PIRATE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_PIRATE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_PIRATE_LEGGINGS));
 
         itemModelGenerator.register(ModItems.HOOK, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CROWN));
     }
 }

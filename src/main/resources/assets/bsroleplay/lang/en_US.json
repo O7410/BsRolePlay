@@ -1,7 +1,13 @@
 {
-  "item.bsroleplay.pirate_helmet": "Tricorn",
-  "item.bsroleplay.pirate_chestplate": "Pirate Clothing",
-  "item.bsroleplay.pirate_leggings": "Pirate Pants",
+  "item.bsroleplay.red_pirate_helmet": "Red Tricorn",
+  "item.bsroleplay.red_pirate_chestplate": "Red Pirate Clothing",
+  "item.bsroleplay.red_pirate_leggings": "Red Pirate Pants",
+
+  "item.bsroleplay.blue_pirate_helmet": "Blue Tricorn",
+  "item.bsroleplay.blue_pirate_chestplate": "Blue Pirate Clothing",
+  "item.bsroleplay.blue_pirate_leggings": "Blue Pirate Pants",
+
+  "item.bsroleplay.crown": "Crown",
 
   "item.bsroleplay.hook": "Hook",
   "tooltip.bsroleplay.hook.tooltip": "When Right Click Summon Evoker Fangs",

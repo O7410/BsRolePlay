@@ -1,7 +1,13 @@
 {
-  "item.bsroleplay.pirate_helmet": "Tricorne",
-  "item.bsroleplay.pirate_chestplate": "Vêtements de Pirates",
-  "item.bsroleplay.pirate_leggings": "Pantalon de Pirate",
+  "item.bsroleplay.red_pirate_helmet": "Tricorne Rouge",
+  "item.bsroleplay.red_pirate_chestplate": "Vêtements de Pirates Rouge",
+  "item.bsroleplay.red_pirate_leggings": "Pantalon de Pirate Rouge",
+
+  "item.bsroleplay.blue_pirate_helmet": "Tricorne Bleu",
+  "item.bsroleplay.blue_pirate_chestplate": "Vêtements de Pirates Bleu",
+  "item.bsroleplay.blue_pirate_leggings": "Pantalon de Pirate Bleu",
+
+  "item.bsroleplay.crown": "Couronne",
 
   "item.bsroleplay.hook": "Crochet",
   "tooltip.bsroleplay.hook.tooltip": "Lorsque vous faites un clic droit, un Evoker Fangs apparaît",
