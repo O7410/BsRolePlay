@@ -62,5 +62,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CROWN));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MINI_CROWN));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DREAM_MASK));
+
+        itemModelGenerator.register(ModBlocks.HOLY_CLOUD_EGG_BLOCK.asItem(), Models.HANDHELD);
     }
 }

@@ -3,8 +3,6 @@ package banduty.bsroleplay.entity.custom;
 import banduty.bsroleplay.entity.ModEntities;
 import banduty.bsroleplay.entity.ai.HolyCloudAttackGoal;
 import banduty.bsroleplay.item.ModItems;
-import net.minecraft.entity.AnimationState;
-import net.minecraft.entity.EntityPose;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
@@ -24,53 +22,25 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.core.animatable.GeoAnimatable;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.Animation;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
 
-public class HolyCloudEntity extends AnimalEntity {
+public class HolyCloudEntity extends AnimalEntity implements GeoEntity {
+    private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
     private static final TrackedData<Boolean> ATTACKING =
             DataTracker.registerData(HolyCloudEntity.class, TrackedDataHandlerRegistry.BOOLEAN);
 
-    public final AnimationState idleAnimationState = new AnimationState();
-    private int idleAnimationTimeout = 0;
-
-    public final AnimationState attackAnimationState = new AnimationState();
     public int attackAnimationTimeout = 0;
 
     public HolyCloudEntity(EntityType<? extends HolyCloudEntity> entityType, World world) {
         super(entityType, world);
-    }
-
-    private void setupAnimationStates() {
-        if (this.idleAnimationTimeout <= 0) {
-            this.idleAnimationTimeout =  this.random.nextInt(40) + 80;
-            this.idleAnimationState.start(this.age);
-        } else {
-            --this.idleAnimationTimeout;
-        }
-
-        if(this.isAttacking() && attackAnimationTimeout <= 0) {
-            attackAnimationTimeout = 40;
-            attackAnimationState.start(this.age);
-        } else {
-            --this.attackAnimationTimeout;
-        }
-
-        if(!this.isAttacking() && attackAnimationTimeout >= 40) {
-            attackAnimationState.stop();
-        }
-    }
-
-    @Override
-    protected void updateLimbs(float posDelta) {
-        float f = this.getPose() == EntityPose.STANDING ? Math.min(posDelta * 6.0f, 1.0f) : 0.0f;
-        this.limbAnimator.updateLimbs(f, 0.2f);
-    }
-
-    @Override
-    public void tick() {
-        super.tick();
-        if(this.getWorld().isClient()) {
-            setupAnimationStates();
-        }
     }
 
     @Override
@@ -141,5 +111,37 @@ public class HolyCloudEntity extends AnimalEntity {
     @Override
     protected SoundEvent getDeathSound() {
         return SoundEvents.ENTITY_BREEZE_DEATH;
+    }
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        controllers.add(new AnimationController<GeoAnimatable>(this,"controller", 0, this::predicate));
+        controllers.add(new AnimationController<GeoAnimatable>(this,"controller", 0, this::attackPredicate));
+    }
+
+    private PlayState attackPredicate(software.bernie.geckolib.core.animation.AnimationState animationState) {
+        if(this.handSwinging && animationState.getController().getAnimationState().equals(AnimationController.State.STOPPED)) {
+            animationState.getController().forceAnimationReset();
+            animationState.getController().setAnimation(RawAnimation.begin().then("animation.holy_cloud.attack", Animation.LoopType.PLAY_ONCE));
+
+            this.handSwinging = false;
+        }
+
+        return PlayState.CONTINUE;
+    }
+
+    private PlayState predicate(software.bernie.geckolib.core.animation.AnimationState animationState) {
+        if(animationState.isMoving()) {
+            animationState.getController().setAnimation(RawAnimation.begin().then("animation.holy_cloud.walk", Animation.LoopType.LOOP));
+            return PlayState.CONTINUE;
+        }
+
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.holy_cloud.idle", Animation.LoopType.LOOP));
+        return PlayState.CONTINUE;
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return cache;
     }
 }

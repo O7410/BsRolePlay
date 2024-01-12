@@ -17,7 +17,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block HOLY_CLOUD_EGG_BLOCK = registerBlock("holy_cloud_egg_block",
-            new HolyCloudEggBlock(FabricBlockSettings.copyOf(Blocks.SNIFFER_EGG).sounds(BlockSoundGroup.MOSS_BLOCK).nonOpaque()));
+            new HolyCloudEggBlock(FabricBlockSettings.copyOf(Blocks.SNIFFER_EGG).sounds(BlockSoundGroup.STONE).nonOpaque()));
 
     public static final Block HOLY_CLOUD_GENERATOR_STATION = registerBlock("holy_cloud_generator_station",
             new HolyCloudGeneratorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));

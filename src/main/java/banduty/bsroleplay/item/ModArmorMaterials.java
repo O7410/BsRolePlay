@@ -20,10 +20,16 @@ public enum ModArmorMaterials implements ArmorMaterial {
             SoundEvents.BLOCK_AMETHYST_BLOCK_PLACE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.HOLY_WEAPON)),
 
     PIRATE("pirate", 25, new int[] { 2, 6, 4, 0 }, 19,
-    SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.HOLY_WEAPON)),
+    SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2f, 0.1f, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
 
     KING("king", 25, new int[] { 3, 0, 0, 0 }, 19,
-    SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(Items.GOLD_INGOT))
+    SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(Items.DIAMOND)),
+
+    MINI_KING("mini_king", 25, new int[] { 1, 0, 0, 0 }, 19,
+            SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(Items.REDSTONE)),
+
+    MASK("mask", 25, new int[] { 1, 0, 0, 0 }, 19,
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2f, 0.1f, () -> Ingredient.ofItems(Items.LEATHER))
 
     ;
 

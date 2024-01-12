@@ -1,7 +1,6 @@
 package banduty.bsroleplay.item.client;
 
 import banduty.bsroleplay.BsRolePlay;
-import banduty.bsroleplay.item.custom.CrownItem;
 import banduty.bsroleplay.item.custom.MiniCrownItem;
 import net.minecraft.util.Identifier;
 import software.bernie.geckolib.model.GeoModel;

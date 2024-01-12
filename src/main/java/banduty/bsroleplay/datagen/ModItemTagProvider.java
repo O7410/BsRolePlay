@@ -17,7 +17,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.JUDGE_CHESTPLATE, ModItems.JUDGE_LEGGINGS, ModItems.JUDGE_BOOTS)
-                .add(ModItems.POLICE_HELMET, ModItems.POLICE_CHESTPLATE, ModItems.POLICE_LEGGINGS, ModItems.POLICE_BOOTS);
+                .add(ModItems.POLICE_HELMET, ModItems.POLICE_CHESTPLATE, ModItems.POLICE_LEGGINGS, ModItems.POLICE_BOOTS)
+                .add(ModItems.DREAM_MASK);
 
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);

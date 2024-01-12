@@ -47,7 +47,7 @@ public class ModItems {
             new HaloItem(ModArmorMaterials.HOLY, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static final Item HOLY_CLOUD_SPAWN_EGG = registerItem("holy_cloud_spawn_egg",
-            new SpawnEggItem(ModEntities.HOLY_CLOUD, 0xCDCDCD, 0xFCC861, new FabricItemSettings()));
+            new SpawnEggItem(ModEntities.HOLY_CLOUD, 0xCDCDCD, 0xffff00, new FabricItemSettings()));
 
     public static final Item RED_PIRATE_HELMET = registerItem("red_pirate_helmet",
             new RedPirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -70,7 +70,10 @@ public class ModItems {
             new CrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item MINI_CROWN = registerItem("mini_crown",
-            new MiniCrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new MiniCrownItem(ModArmorMaterials.MINI_KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item DREAM_MASK = registerItem("dream_mask",
+            new DreamMaskItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(HOLY_SEEDS);

@@ -55,6 +55,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CROWN);
                         entries.add(ModItems.MINI_CROWN);
 
+                        entries.add(ModItems.DREAM_MASK);
+
                     }).build());
 
     public static void registerItemGroups() {

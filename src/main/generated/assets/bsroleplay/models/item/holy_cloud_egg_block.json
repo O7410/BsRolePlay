@@ -1,3 +1,6 @@
 {
-  "parent": "bsroleplay:block/holy_cloud_egg_block"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bsroleplay:item/holy_cloud_egg_block"
+  }
 }

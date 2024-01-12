@@ -20,7 +20,7 @@ public class HolyCloudAttackGoal extends MeleeAttackGoal {
     @Override
     public void start() {
         super.start();
-        attackDelay = 30;
+        attackDelay = 20;
         ticksUntilNextAttack = 20;
     }
 
@@ -46,11 +46,11 @@ public class HolyCloudAttackGoal extends MeleeAttackGoal {
     }
 
     private boolean isEnemyWithinAttackDistance(LivingEntity pEnemy) {
-        return this.entity.distanceTo(pEnemy) <= 3f;
+        return this.entity.distanceTo(pEnemy) <= 5f;
     }
 
     protected void resetAttackCooldown() {
-        this.ticksUntilNextAttack = this.getTickCount(attackDelay + 10);
+        this.ticksUntilNextAttack = this.getTickCount(attackDelay + 20);
     }
 
     protected boolean isTimeToStartAttackAnimation() {

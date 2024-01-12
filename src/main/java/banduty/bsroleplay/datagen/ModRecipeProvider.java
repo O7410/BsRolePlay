@@ -224,20 +224,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.BLUE_WOOL), conditionsFromItem(Items.BLUE_WOOL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BLUE_PIRATE_LEGGINGS)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CROWN, 1)
-                .pattern("G G")
-                .pattern("LRE")
-                .pattern("GGG")
-                .input('E', Items.EMERALD)
-                .input('R', Items.REDSTONE)
-                .input('L', Items.LAPIS_LAZULI)
-                .input('G', Items.GOLD_INGOT)
-                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
-                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
-                .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
-                .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CROWN)));
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MINI_CROWN, 1)
                 .pattern("   ")
                 .pattern("GRG")
@@ -247,5 +233,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.MINI_CROWN)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DREAM_MASK, 1)
+                .pattern("BWB")
+                .pattern("WWW")
+                .pattern("BBB")
+                .input('W', Items.WHITE_WOOL)
+                .input('B', Items.BLACK_WOOL)
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
+                .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DREAM_MASK)));
     }
 }

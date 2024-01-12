@@ -11,10 +11,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModEntities {
-    public static final EntityType<HolyCloudEntity> HOLY_CLOUD = Registry.register(Registries.ENTITY_TYPE,
-            new Identifier(BsRolePlay.MOD_ID, "holy_cloud"),
-            FabricEntityTypeBuilder.<HolyCloudEntity>create(SpawnGroup.CREATURE, HolyCloudEntity::new)
-                    .dimensions(EntityDimensions.fixed(2f, 1f)).build());
+    public static final EntityType<HolyCloudEntity> HOLY_CLOUD = Registry.register(
+            Registries.ENTITY_TYPE, new Identifier(BsRolePlay.MOD_ID, "holy_cloud"),
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, HolyCloudEntity::new)
+                    .dimensions(EntityDimensions.fixed(1.5f, 0.6875f)).build());
 
     public static void registerModEntities() {
         BsRolePlay.LOGGER.info("Registering Entities for " + BsRolePlay.MOD_ID);
