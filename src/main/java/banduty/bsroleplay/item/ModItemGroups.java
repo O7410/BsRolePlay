@@ -57,6 +57,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.DREAM_MASK);
 
+                        entries.add(ModItems.BUNNY_MASK);
+
                     }).build());
 
     public static void registerItemGroups() {

@@ -67,13 +67,16 @@ public class ModItems {
             new Hook(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE)));
 
     public static final Item CROWN = registerItem("crown",
-            new CrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new CrownItem(ModArmorMaterials.KING, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static final Item MINI_CROWN = registerItem("mini_crown",
-            new MiniCrownItem(ModArmorMaterials.MINI_KING, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new MiniCrownItem(ModArmorMaterials.MINI_KING, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
 
     public static final Item DREAM_MASK = registerItem("dream_mask",
-            new DreamMaskItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new DreamMaskItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item BUNNY_MASK = registerItem("bunny_mask",
+            new BunnyMaskItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(HOLY_SEEDS);

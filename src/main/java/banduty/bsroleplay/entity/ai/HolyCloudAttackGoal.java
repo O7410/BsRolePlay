@@ -46,7 +46,7 @@ public class HolyCloudAttackGoal extends MeleeAttackGoal {
     }
 
     private boolean isEnemyWithinAttackDistance(LivingEntity pEnemy) {
-        return this.entity.distanceTo(pEnemy) <= 5f;
+        return this.entity.distanceTo(pEnemy) <= 4f;
     }
 
     protected void resetAttackCooldown() {
