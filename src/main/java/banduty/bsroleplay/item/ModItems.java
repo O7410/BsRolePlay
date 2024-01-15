@@ -35,7 +35,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.JUDGE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item POLICE_HELMET = registerItem("police_helmet",
-            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new PoliceArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item POLICE_CHESTPLATE = registerItem("police_chestplate",
             new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item POLICE_LEGGINGS = registerItem("police_leggings",
