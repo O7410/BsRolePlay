@@ -27,6 +27,8 @@ public class JudgeHammer extends Item {
         context.getWorld().playSound(null, positionClicked, ModSounds.JUDGE_HAMMER_RIGHT_CLICK,
                 SoundCategory.BLOCKS, 1f, 1f);
 
+        player.getItemCooldownManager().set(this, 20);
+
         return ActionResult.SUCCESS;
     }
 

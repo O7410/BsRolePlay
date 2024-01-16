@@ -35,6 +35,8 @@ public class HolyWeapon extends Item {
         context.getWorld().playSound(null, positionClicked, SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE,
                 SoundCategory.BLOCKS, 1f, 1f);
 
+        player.getItemCooldownManager().set(this, 60);
+
         return ActionResult.SUCCESS;
     }
 

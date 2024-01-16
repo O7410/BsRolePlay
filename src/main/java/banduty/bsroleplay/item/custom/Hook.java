@@ -35,6 +35,8 @@ public class Hook extends Item {
         context.getWorld().playSound(null, positionClicked, SoundEvents.BLOCK_ANVIL_LAND,
                 SoundCategory.BLOCKS, 0.5f, 1f);
 
+        player.getItemCooldownManager().set(this, 100);
+
         return ActionResult.SUCCESS;
     }
 
