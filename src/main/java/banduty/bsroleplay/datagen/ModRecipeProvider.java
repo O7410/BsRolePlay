@@ -111,14 +111,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_BOOTS)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOLY_WEAPON, 1)
-                .pattern(" G ")
-                .pattern("WSW")
-                .pattern(" W ")
-                .input('W', Items.DARK_OAK_WOOD)
-                .input('G', Items.GOLD_BLOCK)
+                .pattern(" GG")
+                .pattern(" S ")
+                .pattern("GG ")
+                .input('G', Items.GOLD_INGOT)
                 .input('S', Items.NETHER_STAR)
-                .criterion(hasItem(Items.DARK_OAK_WOOD), conditionsFromItem(Items.BLACK_WOOL))
-                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HOLY_WEAPON)));
 

@@ -12,12 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup BSROLEPLAY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(BsRolePlay.MOD_ID,"holy_seeds"),
+            new Identifier(BsRolePlay.MOD_ID,"crown"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bsroleplay"))
-                    .icon(() -> new ItemStack(ModItems.HOLY_SEEDS)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.CROWN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
-
-                        entries.add(ModItems.HOLY_SEEDS);
 
                         entries.add(ModItems.JUDGE_HAMMER);
 
@@ -36,11 +34,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.HALO);
 
-                        entries.add(ModItems.HOLY_CLOUD_SPAWN_EGG);
-
                         entries.add(ModBlocks.HOLY_CLOUD_GENERATOR_STATION);
-
-                        entries.add(ModBlocks.HOLY_CLOUD_EGG_BLOCK);
 
                         entries.add(ModItems.RED_PIRATE_HELMET);
                         entries.add(ModItems.RED_PIRATE_CHESTPLATE);

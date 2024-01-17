@@ -1,4 +1,4 @@
-// 1.20.4	2024-01-14T14:17:35.2368883	BsRolePlay/Recipes
+// 1.20.4	2024-01-17T16:50:59.4067416	BsRolePlay/Recipes
 3d8f3609d08c5052b943a50e9eded0dbe56b549e data\bsroleplay\recipes\judge_chestplate.json
 18727dd16b60ffbc528fa574d79a870145f7a87b data\bsroleplay\recipes\police_chestplate.json
 03b785590f886c0cf9f246623de5af2e10aff915 data\bsroleplay\recipes\blue_pirate_chestplate.json
@@ -8,7 +8,7 @@ f4d60b0fd512fc71bc4391a85c26bb00cc2d868c data\bsroleplay\advancements\recipes\mi
 8cd8c8fdf6afc91c51b49ac028223c392b467618 data\bsroleplay\recipes\police_helmet.json
 318d39601bd35147cfe307378fea71abf2abb4fd data\bsroleplay\recipes\dream_mask.json
 8f8d16dd8ecfceb4cbafa01f85a4b7428ce646d6 data\bsroleplay\advancements\recipes\misc\police_boots.json
-1c76813ce9aab43fb4bfdebe8b20aad638a883a6 data\bsroleplay\advancements\recipes\misc\holy_weapon.json
+e77fae78eb43e41ef4dd7044894159bc19cabdb9 data\bsroleplay\advancements\recipes\misc\holy_weapon.json
 7900329e0fa5cde2b0b7806dc75232cfdb657a00 data\bsroleplay\advancements\recipes\misc\halo.json
 9eb7f8902a6c4d9f0ee5e06ad137c33acbd72354 data\bsroleplay\advancements\recipes\misc\blue_pirate_leggings.json
 bd7dc5d0345a61a337216998b43e010fdbfccefb data\bsroleplay\recipes\judge_hammer.json
@@ -31,7 +31,7 @@ e926f017b8dc1ec336ce25211500f9fbbd4fcb01 data\bsroleplay\recipes\judge_leggings.
 374c35c286ef3b6540b52bdf94fae1b8e04c0b36 data\bsroleplay\recipes\red_pirate_leggings.json
 ba05ec6b35d99b62388524e8392b70b6f88329a7 data\bsroleplay\advancements\recipes\misc\red_pirate_leggings.json
 8a0e9fb652a00cb0516802a12530ca9a4ec6e310 data\bsroleplay\advancements\recipes\misc\blue_pirate_chestplate.json
-4fc871508ee64fbbe34dd783d1b7b1ef2711c45b data\bsroleplay\recipes\holy_weapon.json
+e7c3bcd88a28c4af60b20be44b6643a9ac5331b4 data\bsroleplay\recipes\holy_weapon.json
 d01643b0140839b56e2c43a80b7c63511d983bce data\bsroleplay\recipes\police_leggings.json
 9691b480233a6c088e8721202a86fff6c11e9df5 data\bsroleplay\recipes\judge_boots.json
 bba4b1e9d8512aba255added50b5d384becc03b0 data\bsroleplay\advancements\recipes\misc\red_pirate_chestplate.json

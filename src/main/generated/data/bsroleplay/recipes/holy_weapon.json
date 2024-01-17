@@ -3,19 +3,16 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:gold_ingot"
     },
     "S": {
       "item": "minecraft:nether_star"
-    },
-    "W": {
-      "item": "minecraft:dark_oak_wood"
     }
   },
   "pattern": [
-    " G ",
-    "WSW",
-    " W "
+    " GG",
+    " S ",
+    "GG "
   ],
   "result": {
     "item": "bsroleplay:holy_weapon"

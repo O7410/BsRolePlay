@@ -1,7 +1,6 @@
 package banduty.bsroleplay.item;
 
 import banduty.bsroleplay.BsRolePlay;
-import banduty.bsroleplay.entity.ModEntities;
 import banduty.bsroleplay.item.custom.*;
 import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -16,8 +15,6 @@ import net.minecraft.util.Rarity;
 public class ModItems {
     public static final Item DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC = registerItem("dolor_en_el_pecho_carola_music_disc",
             new MusicDiscItem(7, ModSounds.DOLOR_EN_EL_PECHO_CAROLA, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1), 193));
-    public static final Item HOLY_SEEDS = registerItem("holy_seeds",
-            new HolySeeds(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item JUDGE_HAMMER = registerItem("judge_hammer",
             new JudgeHammer(new FabricItemSettings().maxCount(1).maxDamage(0).rarity(Rarity.RARE)));
 
@@ -45,9 +42,6 @@ public class ModItems {
 
     public static final Item HALO = registerItem("halo",
             new HaloItem(ModArmorMaterials.HOLY, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
-
-    public static final Item HOLY_CLOUD_SPAWN_EGG = registerItem("holy_cloud_spawn_egg",
-            new SpawnEggItem(ModEntities.HOLY_CLOUD, 0xCDCDCD, 0xffff00, new FabricItemSettings()));
 
     public static final Item RED_PIRATE_HELMET = registerItem("red_pirate_helmet",
             new RedPirateArmorItem(ModArmorMaterials.PIRATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -79,7 +73,7 @@ public class ModItems {
             new BunnyMaskItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(HOLY_SEEDS);
+
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BsRolePlay.MOD_ID, name), item);

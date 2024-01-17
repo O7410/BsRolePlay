@@ -19,9 +19,6 @@
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc": "Disque de Musique",
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc.desc": "Shivita - Dolor En El Pecho Remix",
 
-  "item.bsroleplay.holy_seeds": "Graines Sacrées",
-  "tooltip.bsroleplay.holy_seeds.tooltip": "Utilisé sur certains monstres sacrés",
-
   "item.bsroleplay.judge_hammer": "Marteau du Juge",
   "tooltip.bsroleplay.judgehammer.tooltip": "Lorsque vous faites un clic droit, cela fait un son",
 
@@ -36,18 +33,14 @@
   "item.bsroleplay.police_leggings": "Pantalon de Police",
   "item.bsroleplay.police_boots": "Chaussures de Police",
 
-  "item.bsroleplay.holy_weapon": "Arme Sacrée",
+  "item.bsroleplay.holy_weapon": "Rayon Divin",
   "tooltip.bsroleplay.holyweapon.tooltip": "Lorsque vous faites un clic droit, un éclair apparaît",
 
   "item.bsroleplay.halo": "Aura",
 
   "itemgroup.bsroleplay": "BsRolePlay",
 
-  "item.bsroleplay.holy_cloud_spawn_egg": "Oeuf d’apparition du Nuage Sacré",
-
   "block.bsroleplay.holy_cloud_generator_station": "Rassembleur Divin",
-
-  "block.bsroleplay.holy_cloud_egg_block": "Oeuf des Nuages Sacrés",
 
   "sounds.bsroleplay.judge_hammer_right_click": "Coup de Marteau du Juge"
 }

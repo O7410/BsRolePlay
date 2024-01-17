@@ -19,9 +19,6 @@
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc": "Music Disc",
   "item.bsroleplay.dolor_en_el_pecho_carola_music_disc.desc": "Shivita - Dolor En El Pecho Remix",
 
-  "item.bsroleplay.holy_seeds": "Holy Seeds",
-  "tooltip.bsroleplay.holy_seeds.tooltip": "Used on certain Holy Mobs",
-
   "item.bsroleplay.judge_hammer": "Judge Hammer",
   "tooltip.bsroleplay.judgehammer.tooltip": "When Right Click play a Sound",
 
@@ -36,16 +33,12 @@
   "item.bsroleplay.police_leggings": "Police Leggings",
   "item.bsroleplay.police_boots": "Police Boots",
 
-  "item.bsroleplay.holy_weapon": "Holy Weapon",
+  "item.bsroleplay.holy_weapon": "Divine Thunderbolt",
   "tooltip.bsroleplay.holyweapon.tooltip": "When Right Click summon a Lightning",
 
   "item.bsroleplay.halo": "Halo",
 
-  "item.bsroleplay.holy_cloud_spawn_egg": "Holy Cloud Spawn Egg",
-
   "block.bsroleplay.holy_cloud_generator_station": "Divine Gatherer",
-
-  "block.bsroleplay.holy_cloud_egg_block": "Holy Cloud Egg",
 
   "itemgroup.bsroleplay": "BsRolePlay",
 
