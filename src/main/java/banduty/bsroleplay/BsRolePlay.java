@@ -2,6 +2,7 @@ package banduty.bsroleplay;
 
 import banduty.bsroleplay.block.ModBlocks;
 import banduty.bsroleplay.block.entity.ModBlockEntities;
+import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
 import banduty.bsroleplay.recipe.ModRecipes;
@@ -19,6 +20,8 @@ public class BsRolePlay implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfigs.registerConfigs();
+
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();

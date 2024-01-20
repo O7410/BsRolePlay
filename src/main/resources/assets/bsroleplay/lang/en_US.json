@@ -33,12 +33,18 @@
   "item.bsroleplay.police_leggings": "Police Leggings",
   "item.bsroleplay.police_boots": "Police Boots",
 
-  "item.bsroleplay.holy_weapon": "Divine Thunderbolt",
-  "tooltip.bsroleplay.holyweapon.tooltip": "When Right Click summon a Lightning",
+  "item.bsroleplay.pharaoh_staff": "Pharaoh Staff",
+  "tooltip.bsroleplay.pharaoh_staff.tooltip": "When Right Click summon a Lightning",
 
   "item.bsroleplay.halo": "Halo",
 
   "block.bsroleplay.holy_cloud_generator_station": "Divine Gatherer",
+
+  "item.bsroleplay.neanderthal_chestplate": "Leather Clothes",
+
+  "item.bsroleplay.funeral_mask": "Funeral Mask",
+
+  "item.bsroleplay.civic_crown": "Civic Crown",
 
   "itemgroup.bsroleplay": "BsRolePlay",
 

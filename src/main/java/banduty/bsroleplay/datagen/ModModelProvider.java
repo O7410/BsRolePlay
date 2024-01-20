@@ -35,7 +35,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_BOOTS));
 
-        itemModelGenerator.register(ModItems.HOLY_WEAPON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PHARAOH_STAFF, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.HALO));
 
@@ -56,5 +56,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DREAM_MASK));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.BUNNY_MASK));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEANDERTHAL_CHESTPLATE));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.FUNERAL_MASK));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CIVIC_CROWN));
     }
 }

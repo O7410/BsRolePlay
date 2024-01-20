@@ -30,7 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.POLICE_LEGGINGS);
                         entries.add(ModItems.POLICE_BOOTS);
 
-                        entries.add(ModItems.HOLY_WEAPON);
+                        entries.add(ModItems.PHARAOH_STAFF);
 
                         entries.add(ModItems.HALO);
 
@@ -52,6 +52,12 @@ public class ModItemGroups {
                         entries.add(ModItems.DREAM_MASK);
 
                         entries.add(ModItems.BUNNY_MASK);
+
+                        entries.add(ModItems.NEANDERTHAL_CHESTPLATE);
+
+                        entries.add(ModItems.FUNERAL_MASK);
+
+                        entries.add(ModItems.CIVIC_CROWN);
 
                     }).build());
 

@@ -1,5 +1,6 @@
 package banduty.bsroleplay.item.custom;
 
+import banduty.bsroleplay.config.ModConfigs;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -35,7 +36,7 @@ public class Hook extends Item {
         context.getWorld().playSound(null, positionClicked, SoundEvents.BLOCK_ANVIL_LAND,
                 SoundCategory.BLOCKS, 0.5f, 1f);
 
-        player.getItemCooldownManager().set(this, 100);
+        player.getItemCooldownManager().set(this, ModConfigs.HOOK_COOLDOWN*20);
 
         return ActionResult.SUCCESS;
     }

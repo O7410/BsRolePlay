@@ -110,38 +110,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.POLICE_BATON), conditionsFromItem(ModItems.POLICE_BATON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_BOOTS)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOLY_WEAPON, 1)
-                .pattern(" GG")
-                .pattern(" S ")
-                .pattern("GG ")
-                .input('G', Items.GOLD_INGOT)
-                .input('S', Items.NETHER_STAR)
-                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
-                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HOLY_WEAPON)));
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HALO, 1)
                 .pattern("III")
-                .pattern("IHI")
+                .pattern("I I")
                 .pattern("III")
                 .input('I', Items.GOLD_INGOT)
-                .input('H', ModItems.HOLY_WEAPON)
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
-                .criterion(hasItem(ModItems.HOLY_WEAPON), conditionsFromItem(ModItems.HOLY_WEAPON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HALO)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.HOLY_CLOUD_GENERATOR_STATION, 1)
-                .pattern("   ")
-                .pattern("DHD")
+                .pattern("WWW")
+                .pattern("WNW")
                 .pattern("WGW")
+                .input('G', Items.GLOWSTONE)
+                .input('N', Items.NETHER_STAR)
                 .input('W', Items.WHITE_WOOL)
-                .input('G', Items.GOLD_BLOCK)
-                .input('D', Items.DARK_OAK_WOOD)
-                .input('H', ModItems.HOLY_WEAPON)
+                .criterion(hasItem(Items.GLOWSTONE), conditionsFromItem(Items.GLOWSTONE))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
                 .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
-                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
-                .criterion(hasItem(Items.DARK_OAK_WOOD), conditionsFromItem(Items.DARK_OAK_WOOD))
-                .criterion(hasItem(ModItems.HOLY_WEAPON), conditionsFromItem(ModItems.HOLY_WEAPON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HOLY_CLOUD_GENERATOR_STATION)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_PIRATE_HELMET, 1)
@@ -157,7 +143,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RED_PIRATE_HELMET)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_PIRATE_CHESTPLATE, 1)
-                .pattern("R R")
+                .pattern("RWR")
                 .pattern("RIR")
                 .pattern("IWI")
                 .input('I', Items.GOLD_INGOT)
@@ -201,7 +187,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BLUE_PIRATE_HELMET)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLUE_PIRATE_CHESTPLATE, 1)
-                .pattern("B B")
+                .pattern("BWB")
                 .pattern("BIB")
                 .pattern("IWI")
                 .input('I', Items.GOLD_INGOT)
@@ -241,5 +227,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.DREAM_MASK)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.NEANDERTHAL_CHESTPLATE, 1)
+                .pattern("P L")
+                .pattern(" PL")
+                .pattern("LLL")
+                .input('P', Items.LAPIS_LAZULI)
+                .input('L', Items.LEATHER)
+                .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.NEANDERTHAL_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FUNERAL_MASK, 1)
+                .pattern("PGP")
+                .pattern("GPG")
+                .pattern("P P")
+                .input('P', Items.LAPIS_LAZULI)
+                .input('G', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.FUNERAL_MASK)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CIVIC_CROWN, 1)
+                .pattern("OOO")
+                .pattern("O O")
+                .pattern("OOO")
+                .input('O', Items.OAK_LEAVES)
+                .criterion(hasItem(Items.OAK_LEAVES), conditionsFromItem(Items.OAK_LEAVES))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CIVIC_CROWN)));
     }
 }

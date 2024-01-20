@@ -5,16 +5,16 @@
     "G": {
       "item": "minecraft:gold_ingot"
     },
-    "S": {
-      "item": "minecraft:nether_star"
+    "P": {
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "pattern": [
-    " GG",
-    " S ",
-    "GG "
+    "PGP",
+    "GPG",
+    "P P"
   ],
   "result": {
-    "item": "bsroleplay:holy_weapon"
+    "item": "bsroleplay:funeral_mask"
   }
 }

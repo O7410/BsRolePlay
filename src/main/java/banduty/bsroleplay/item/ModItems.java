@@ -21,8 +21,8 @@ public class ModItems {
     public static final Item POLICE_BATON = registerItem("police_baton",
             new SwordItem(ModToolMaterial.POLICE, 3, 1f, new FabricItemSettings().maxDamage(0).rarity(Rarity.UNCOMMON)));
 
-    public static final Item HOLY_WEAPON = registerItem("holy_weapon",
-            new HolyWeapon(new FabricItemSettings().maxCount(1).rarity(Rarity.EPIC)));
+    public static final Item PHARAOH_STAFF = registerItem("pharaoh_staff",
+            new PharaohStaff(new FabricItemSettings().maxCount(1).rarity(Rarity.EPIC)));
 
     public static final Item JUDGE_CHESTPLATE = registerItem("judge_chestplate",
             new ArmorItem(ModArmorMaterials.JUDGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
@@ -71,6 +71,16 @@ public class ModItems {
 
     public static final Item BUNNY_MASK = registerItem("bunny_mask",
             new BunnyMaskItem(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item NEANDERTHAL_CHESTPLATE = registerItem("neanderthal_chestplate",
+            new NeanderthalItem(ModArmorMaterials.NEANDERTHAL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item FUNERAL_MASK = registerItem("funeral_mask",
+            new FuneralMaskItem(ModArmorMaterials.PHARAOH, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
+
+    public static final Item CIVIC_CROWN= registerItem("civic_crown",
+            new RomanEmperorItem(ModArmorMaterials.ROMAN, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 

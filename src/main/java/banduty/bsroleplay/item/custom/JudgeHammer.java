@@ -1,5 +1,6 @@
 package banduty.bsroleplay.item.custom;
 
+import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
@@ -27,7 +28,7 @@ public class JudgeHammer extends Item {
         context.getWorld().playSound(null, positionClicked, ModSounds.JUDGE_HAMMER_RIGHT_CLICK,
                 SoundCategory.BLOCKS, 1f, 1f);
 
-        player.getItemCooldownManager().set(this, 20);
+        player.getItemCooldownManager().set(this, ModConfigs.JUDGE_HAMMER_COOLDOWN*20);
 
         return ActionResult.SUCCESS;
     }

@@ -33,14 +33,20 @@
   "item.bsroleplay.police_leggings": "Pantalón Policial",
   "item.bsroleplay.police_boots": "Zapatos Policiales",
 
-  "item.bsroleplay.holy_weapon": "Rayo Divino",
-  "tooltip.bsroleplay.holyweapon.tooltip": "Al darle Clic Derecho aparece un Rayo",
+  "item.bsroleplay.pharaoh_staff": "Rayo Divino",
+  "tooltip.bsroleplay.pharaoh_staff.tooltip": "Al darle Clic Derecho aparece un Rayo",
 
   "item.bsroleplay.halo": "Aureola",
 
   "itemgroup.bsroleplay": "BsRolePlay",
 
   "block.bsroleplay.holy_cloud_generator_station": "Recolector Divino",
+
+  "item.bsroleplay.neanderthal_chestplate": "Ropa de Cuero",
+
+  "item.bsroleplay.funeral_mask": "Máscara Funeraria",
+
+  "item.bsroleplay.civic_crown": "Láurea",
 
   "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez"
 }

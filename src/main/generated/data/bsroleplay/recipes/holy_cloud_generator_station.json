@@ -2,22 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "D": {
-      "item": "minecraft:dark_oak_wood"
-    },
     "G": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:glowstone"
     },
-    "H": {
-      "item": "bsroleplay:holy_weapon"
+    "N": {
+      "item": "minecraft:nether_star"
     },
     "W": {
       "item": "minecraft:white_wool"
     }
   },
   "pattern": [
-    "   ",
-    "DHD",
+    "WWW",
+    "WNW",
     "WGW"
   ],
   "result": {

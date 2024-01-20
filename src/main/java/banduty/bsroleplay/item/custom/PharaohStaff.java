@@ -1,5 +1,6 @@
 package banduty.bsroleplay.item.custom;
 
+import banduty.bsroleplay.config.ModConfigs;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -18,8 +19,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class HolyWeapon extends Item {
-    public HolyWeapon (Settings settings) {
+public class PharaohStaff extends Item {
+    public PharaohStaff (Settings settings) {
         super(settings);
     }
 
@@ -35,14 +36,14 @@ public class HolyWeapon extends Item {
         context.getWorld().playSound(null, positionClicked, SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE,
                 SoundCategory.BLOCKS, 1f, 1f);
 
-        player.getItemCooldownManager().set(this, 60);
+        player.getItemCooldownManager().set(this, ModConfigs.PHARAOH_STAFF_COOLDOWN*20);
 
         return ActionResult.SUCCESS;
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.bsroleplay.holyweapon.tooltip"));
+        tooltip.add(Text.translatable("tooltip.bsroleplay.pharaoh_staff.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }
