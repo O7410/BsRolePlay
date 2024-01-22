@@ -1,5 +1,6 @@
 package banduty.bsroleplay.block.entity;
 
+import banduty.bsroleplay.BsRolePlay;
 import banduty.bsroleplay.recipe.HolyCloudGeneratorRecipe;
 import banduty.bsroleplay.screen.HolyCloudGeneratorScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
@@ -36,7 +37,7 @@ public class HolyCloudGeneratorBlockEntity extends BlockEntity implements Extend
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
-    private int maxProgress = 200;
+    private int maxProgress = BsRolePlay.CONFIG.common.getDivineGathererCraftTime()*20;
 
     public HolyCloudGeneratorBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.HOLY_CLOUD_GENERATOR_STATION_BLOCK_ENTITY, pos, state);

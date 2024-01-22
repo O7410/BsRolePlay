@@ -22,7 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
-        itemModelGenerator.register(ModItems.JUDGE_HAMMER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.JUDGE_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.JUDGE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.JUDGE_LEGGINGS));
@@ -30,37 +30,37 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.POLICE_BATON, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_HELMET));
+        itemModelGenerator.register(ModItems.POLICE_HELMET, Models.GENERATED);
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_BOOTS));
 
-        itemModelGenerator.register(ModItems.PHARAOH_STAFF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PHARAOH_STAFF, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.HALO));
+        itemModelGenerator.register(ModItems.HALO, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RED_PIRATE_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RED_PIRATE_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RED_PIRATE_LEGGINGS));
+        itemModelGenerator.register(ModItems.RED_PIRATE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RED_PIRATE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RED_PIRATE_LEGGINGS, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_PIRATE_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_PIRATE_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLUE_PIRATE_LEGGINGS));
+        itemModelGenerator.register(ModItems.BLUE_PIRATE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_PIRATE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_PIRATE_LEGGINGS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.HOOK, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CROWN));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MINI_CROWN));
+        itemModelGenerator.register(ModItems.CROWN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MINI_CROWN, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DREAM_MASK));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BUNNY_MASK));
+        itemModelGenerator.register(ModItems.DREAM_MASK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BUNNY_MASK, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEANDERTHAL_CHESTPLATE));
+        itemModelGenerator.register(ModItems.NEANDERTHAL_CHESTPLATE, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.FUNERAL_MASK));
+        itemModelGenerator.register(ModItems.FUNERAL_MASK, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CIVIC_CROWN));
+        itemModelGenerator.register(ModItems.CIVIC_CROWN, Models.GENERATED);
     }
 }

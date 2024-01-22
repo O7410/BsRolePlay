@@ -123,10 +123,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("WNW")
                 .pattern("WGW")
                 .input('G', Items.GLOWSTONE)
-                .input('N', Items.NETHER_STAR)
+                .input('N', Items.GOLD_BLOCK)
                 .input('W', Items.WHITE_WOOL)
                 .criterion(hasItem(Items.GLOWSTONE), conditionsFromItem(Items.GLOWSTONE))
-                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
                 .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HOLY_CLOUD_GENERATOR_STATION)));
 

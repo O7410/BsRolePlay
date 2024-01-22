@@ -1,6 +1,6 @@
 package banduty.bsroleplay.item.custom;
 
-import banduty.bsroleplay.config.ModConfigs;
+import banduty.bsroleplay.BsRolePlay;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -36,7 +36,7 @@ public class PharaohStaff extends Item {
         context.getWorld().playSound(null, positionClicked, SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE,
                 SoundCategory.BLOCKS, 1f, 1f);
 
-        player.getItemCooldownManager().set(this, ModConfigs.PHARAOH_STAFF_COOLDOWN*20);
+        player.getItemCooldownManager().set(this, BsRolePlay.CONFIG.common.getPharaohStaffCooldown()*20);
 
         return ActionResult.SUCCESS;
     }
