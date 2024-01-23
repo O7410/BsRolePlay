@@ -1,12 +1,9 @@
 package banduty.bsroleplay;
 
-import banduty.bsroleplay.block.ModBlocks;
-import banduty.bsroleplay.block.entity.ModBlockEntities;
 import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
 import banduty.bsroleplay.recipe.ModRecipes;
-import banduty.bsroleplay.screen.ModScreenHandlers;
 import banduty.bsroleplay.sound.ModSounds;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
@@ -34,11 +31,6 @@ public class BsRolePlay implements ModInitializer {
 		ModSounds.registerSounds();
 
 		ModRecipes.registerRecipes();
-
-		ModBlocks.registerModBlocks();
-		ModBlockEntities.registerBlockEntities();
-
-		ModScreenHandlers.registerScreenHandlers();
 
 		GeckoLib.initialize();
 	}

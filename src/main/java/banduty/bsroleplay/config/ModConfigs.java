@@ -47,15 +47,5 @@ public class ModConfigs extends PartitioningSerializer.GlobalData {
         public int getJudgeHammerCooldown() {
             return Math.max(0, judgeHammerCooldown);
         }
-
-        @ConfigEntry.Gui.Tooltip(count = 2)
-        @Comment("""
-                Divine Gatherer Craft Time in Seconds | Default: 30
-                """)
-        int divineGathererCraftTime = 30;
-
-        public int getDivineGathererCraftTime() {
-            return Math.max(0, divineGathererCraftTime);
-        }
 }
 }

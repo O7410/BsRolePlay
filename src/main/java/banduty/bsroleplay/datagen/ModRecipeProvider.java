@@ -1,6 +1,5 @@
 package banduty.bsroleplay.datagen;
 
-import banduty.bsroleplay.block.ModBlocks;
 import banduty.bsroleplay.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -117,18 +116,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', Items.GOLD_INGOT)
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HALO)));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.HOLY_CLOUD_GENERATOR_STATION, 1)
-                .pattern("WWW")
-                .pattern("WNW")
-                .pattern("WGW")
-                .input('G', Items.GLOWSTONE)
-                .input('N', Items.GOLD_BLOCK)
-                .input('W', Items.WHITE_WOOL)
-                .criterion(hasItem(Items.GLOWSTONE), conditionsFromItem(Items.GLOWSTONE))
-                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
-                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HOLY_CLOUD_GENERATOR_STATION)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_PIRATE_HELMET, 1)
                 .pattern(" I ")
@@ -255,5 +242,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('O', Items.OAK_LEAVES)
                 .criterion(hasItem(Items.OAK_LEAVES), conditionsFromItem(Items.OAK_LEAVES))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.CIVIC_CROWN)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BUNNY_MASK, 1)
+                .pattern("O O")
+                .pattern("RDR")
+                .pattern(" O ")
+                .input('O', Items.PINK_WOOL)
+                .input('R', Items.RED_WOOL)
+                .input('D', ModItems.DREAM_MASK)
+                .criterion(hasItem(Items.PINK_WOOL), conditionsFromItem(Items.PINK_WOOL))
+                .criterion(hasItem(Items.RED_WOOL), conditionsFromItem(Items.RED_WOOL))
+                .criterion(hasItem(ModItems.DREAM_MASK), conditionsFromItem(ModItems.DREAM_MASK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.BUNNY_MASK)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC, 1)
+                .pattern(" H ")
+                .pattern(" D ")
+                .pattern(" B ")
+                .input('H', ModItems.HALO)
+                .input('D', ModItems.DREAM_MASK)
+                .input('B', Items.BLACK_WOOL)
+                .criterion(hasItem(ModItems.HALO), conditionsFromItem(ModItems.HALO))
+                .criterion(hasItem(ModItems.DREAM_MASK), conditionsFromItem(ModItems.DREAM_MASK))
+                .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CROWN, 1)
+                .pattern("G G")
+                .pattern("LME")
+                .pattern("   ")
+                .input('L', Items.LAPIS_LAZULI)
+                .input('E', Items.EMERALD)
+                .input('G', Items.GOLD_INGOT)
+                .input('M', ModItems.MINI_CROWN)
+                .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .criterion(hasItem(ModItems.MINI_CROWN), conditionsFromItem(ModItems.MINI_CROWN))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CROWN)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PHARAOH_STAFF, 1)
+                .pattern(" GN")
+                .pattern(" LG")
+                .pattern("G  ")
+                .input('G', Items.GOLD_BLOCK)
+                .input('N', Items.NETHER_STAR)
+                .input('L', Items.LAPIS_BLOCK)
+                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                .criterion(hasItem(Items.LAPIS_BLOCK), conditionsFromItem(Items.LAPIS_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PHARAOH_STAFF)));
     }
 }

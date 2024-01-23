@@ -1,24 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_glowstone": {
+    "has_dream_mask": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:glowstone"
+              "bsroleplay:dream_mask"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_gold_block": {
+    "has_pink_wool": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:gold_block"
+              "minecraft:pink_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_wool"
             ]
           }
         ]
@@ -27,34 +39,22 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:holy_cloud_generator_station"
+        "recipe": "minecraft:bunny_mask"
       },
       "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_white_wool": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:white_wool"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_glowstone",
-      "has_gold_block",
-      "has_white_wool"
+      "has_pink_wool",
+      "has_red_wool",
+      "has_dream_mask"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:holy_cloud_generator_station"
+      "minecraft:bunny_mask"
     ]
   }
 }

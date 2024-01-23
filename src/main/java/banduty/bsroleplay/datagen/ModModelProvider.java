@@ -1,6 +1,5 @@
 package banduty.bsroleplay.datagen;
 
-import banduty.bsroleplay.block.ModBlocks;
 import banduty.bsroleplay.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -16,7 +15,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleState(ModBlocks.HOLY_CLOUD_GENERATOR_STATION);
     }
 
     @Override

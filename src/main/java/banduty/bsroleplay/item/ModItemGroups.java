@@ -1,7 +1,6 @@
 package banduty.bsroleplay.item;
 
 import banduty.bsroleplay.BsRolePlay;
-import banduty.bsroleplay.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -33,8 +32,6 @@ public class ModItemGroups {
                         entries.add(ModItems.PHARAOH_STAFF);
 
                         entries.add(ModItems.HALO);
-
-                        entries.add(ModBlocks.HOLY_CLOUD_GENERATOR_STATION);
 
                         entries.add(ModItems.RED_PIRATE_HELMET);
                         entries.add(ModItems.RED_PIRATE_CHESTPLATE);
