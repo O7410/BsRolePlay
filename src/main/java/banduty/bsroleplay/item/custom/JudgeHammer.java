@@ -22,21 +22,26 @@ public class JudgeHammer extends Item {
     }
 
     public ActionResult useOnBlock(ItemUsageContext context) {
-        BlockPos positionClicked = context.getBlockPos();
-        PlayerEntity player = context.getPlayer();
+        if (BsRolePlay.CONFIG.common.modifyJudgeHammerSound) {
+            BlockPos blockPos = context.getBlockPos();
+            PlayerEntity player = context.getPlayer();
 
-        context.getWorld().playSound(null, positionClicked, ModSounds.JUDGE_HAMMER_RIGHT_CLICK,
-                SoundCategory.BLOCKS, 1f, 1f);
+            context.getWorld().playSound(null, blockPos, ModSounds.JUDGE_HAMMER_RIGHT_CLICK,
+                    SoundCategory.BLOCKS, 1f, 1f);
 
-        assert player != null;
-        player.getItemCooldownManager().set(this, BsRolePlay.CONFIG.common.getJudgeHammerCooldown()*20);
+            assert player != null;
+            player.getItemCooldownManager().set(this, BsRolePlay.CONFIG.common.getJudgeHammerCooldown() * 20);
 
+            return ActionResult.SUCCESS;
+        }
         return ActionResult.SUCCESS;
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.bsroleplay.judgehammer.tooltip"));
-        super.appendTooltip(stack, world, tooltip, context);
+        if (BsRolePlay.CONFIG.common.showItemTooltips) {
+            tooltip.add(Text.translatable("tooltip.bsroleplay.judgehammer.tooltip"));
+            super.appendTooltip(stack, world, tooltip, context);
+        }
     }
 }

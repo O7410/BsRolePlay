@@ -25,26 +25,31 @@ public class PharaohStaff extends Item {
     }
 
     public ActionResult useOnBlock(ItemUsageContext context) {
-        BlockPos positionClicked = context.getBlockPos();
+        BlockPos blockPos = context.getBlockPos();
         PlayerEntity player = context.getPlayer();
         World World = context.getWorld();
+        if (BsRolePlay.CONFIG.common.modifyPharaohStaffLightning) {
 
-        Entity lightning = new LightningEntity(EntityType.LIGHTNING_BOLT, World);
-        lightning.setPosition(positionClicked.toCenterPos());
-        World.spawnEntity(lightning);
+            Entity lightning = new LightningEntity(EntityType.LIGHTNING_BOLT, World);
+            lightning.setPosition(blockPos.toCenterPos());
+            World.spawnEntity(lightning);
 
-        context.getWorld().playSound(null, positionClicked, SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE,
-                SoundCategory.BLOCKS, 1f, 1f);
+            context.getWorld().playSound(null, blockPos, SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE,
+                    SoundCategory.BLOCKS, 1f, 1f);
 
-        assert player != null;
-        player.getItemCooldownManager().set(this, BsRolePlay.CONFIG.common.getPharaohStaffCooldown()*20);
+            assert player != null;
+            player.getItemCooldownManager().set(this, BsRolePlay.CONFIG.common.getPharaohStaffCooldown() * 20);
 
+            return ActionResult.SUCCESS;
+        }
         return ActionResult.SUCCESS;
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.bsroleplay.pharaoh_staff.tooltip"));
-        super.appendTooltip(stack, world, tooltip, context);
+        if (BsRolePlay.CONFIG.common.showItemTooltips) {
+            tooltip.add(Text.translatable("tooltip.bsroleplay.pharaoh_staff.tooltip"));
+            super.appendTooltip(stack, world, tooltip, context);
+        }
     }
 }

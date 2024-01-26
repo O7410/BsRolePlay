@@ -8,7 +8,7 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 
 @Config(name = BsRolePlay.MOD_ID)
-@Config.Gui.Background("minecraft:textures/block/gold_block.png")
+@Config.Gui.Background("minecraft:textures/block/oak_plank.png")
 public class ModConfigs extends PartitioningSerializer.GlobalData {
 
     @ConfigEntry.Category("common")
@@ -17,6 +17,18 @@ public class ModConfigs extends PartitioningSerializer.GlobalData {
 
     @Config(name = BsRolePlay.MOD_ID)
     public static final class Common implements ConfigData {
+
+        @ConfigEntry.Gui.Tooltip(count = 2)
+        @Comment("Allow Pharaoh Staff throw Lightnings | Default: true")
+        public boolean modifyPharaohStaffLightning = true;
+
+        @ConfigEntry.Gui.Tooltip(count = 2)
+        @Comment("Allow Hook spawn Evoker Fang | Default: true")
+        public boolean modifyHookEvokerFang = true;
+
+        @ConfigEntry.Gui.Tooltip(count = 2)
+        @Comment("Allow Judge Hammer make Sound | Default: true")
+        public boolean modifyJudgeHammerSound = true;
 
         @ConfigEntry.Gui.Tooltip(count = 2)
         @Comment("""
@@ -47,5 +59,9 @@ public class ModConfigs extends PartitioningSerializer.GlobalData {
         public int getJudgeHammerCooldown() {
             return Math.max(0, judgeHammerCooldown);
         }
-}
+
+        @ConfigEntry.Gui.Tooltip(count = 2)
+        @Comment("Show Item Tooltips | Default: true")
+        public boolean showItemTooltips = true;
+    }
 }
