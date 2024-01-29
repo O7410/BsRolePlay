@@ -14,24 +14,16 @@ public class ModItemGroups {
             new Identifier(BsRolePlay.MOD_ID,"crown"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bsroleplay"))
                     .icon(() -> new ItemStack(ModItems.CROWN)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
-
-                        entries.add(ModItems.JUDGE_HAMMER);
+                        entries.add(ModItems.PILL);
 
                         entries.add(ModItems.JUDGE_CHESTPLATE);
                         entries.add(ModItems.JUDGE_LEGGINGS);
                         entries.add(ModItems.JUDGE_BOOTS);
 
-                        entries.add(ModItems.POLICE_BATON);
-
                         entries.add(ModItems.POLICE_HELMET);
                         entries.add(ModItems.POLICE_CHESTPLATE);
                         entries.add(ModItems.POLICE_LEGGINGS);
                         entries.add(ModItems.POLICE_BOOTS);
-
-                        entries.add(ModItems.PHARAOH_STAFF);
-
-                        entries.add(ModItems.HALO);
 
                         entries.add(ModItems.RED_PIRATE_HELMET);
                         entries.add(ModItems.RED_PIRATE_CHESTPLATE);
@@ -41,20 +33,26 @@ public class ModItemGroups {
                         entries.add(ModItems.BLUE_PIRATE_CHESTPLATE);
                         entries.add(ModItems.BLUE_PIRATE_LEGGINGS);
 
-                        entries.add(ModItems.HOOK);
-
-                        entries.add(ModItems.CROWN);
-                        entries.add(ModItems.MINI_CROWN);
-
                         entries.add(ModItems.DREAM_MASK);
-
                         entries.add(ModItems.BUNNY_MASK);
 
                         entries.add(ModItems.NEANDERTHAL_CHESTPLATE);
 
                         entries.add(ModItems.FUNERAL_MASK);
 
+                        entries.add(ModItems.CROWN);
+                        entries.add(ModItems.MINI_CROWN);
+
                         entries.add(ModItems.CIVIC_CROWN);
+
+                        entries.add(ModItems.HALO);
+
+                        entries.add(ModItems.JUDGE_HAMMER);
+                        entries.add(ModItems.POLICE_BATON);
+                        entries.add(ModItems.HOOK);
+                        entries.add(ModItems.PHARAOH_STAFF);
+
+                        entries.add(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
 
                     }).build());
 

@@ -60,5 +60,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FUNERAL_MASK, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CIVIC_CROWN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PILL, Models.GENERATED);
     }
 }

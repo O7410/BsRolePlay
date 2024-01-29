@@ -81,6 +81,9 @@ public class ModItems {
     public static final Item CIVIC_CROWN= registerItem("civic_crown",
             new RomanEmperorItem(ModArmorMaterials.ROMAN, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
 
+    public static final Item PILL= registerItem("pill",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PILL)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 
