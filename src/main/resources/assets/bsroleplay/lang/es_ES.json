@@ -50,6 +50,7 @@
 
   "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez",
 
+  "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
   "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Relámpagos - Bastón del Faraón",
   "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Colmillos de Evocador - Garfio",
   "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Sonido - Martillo del Juez",
@@ -68,5 +69,6 @@
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Tiempo de Nausea - Píldora Feliciana",
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "En Segundos",
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Posibilidad Nausea - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.happyPillInstantHealthChance": "Curación Instantanea-Píldora Feliciana",
   "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Información sobre Herramientas"
 }

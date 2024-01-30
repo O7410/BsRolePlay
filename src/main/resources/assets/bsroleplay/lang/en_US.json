@@ -50,6 +50,7 @@
 
   "sounds.bsroleplay.judge_hammer_right_click": "Judge Hammer Noise",
 
+  "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
   "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Allow Pharaoh Staff throw Lightnings",
   "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Allow Hook spawn Evoker Fang",
   "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Allow Judge Hammer make Sound",
@@ -68,5 +69,6 @@
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Happy Pill Nausea Time",
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "In Seconds",
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Happy Pill Nausea Chance",
+  "text.autoconfig.bsroleplay.option.common.happyPillInstantHealthChance": "Happy Pill Instant Health Chance",
   "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Show Item Tooltips"
 }

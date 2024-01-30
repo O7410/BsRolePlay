@@ -121,6 +121,16 @@ public class ModConfigs extends PartitioningSerializer.GlobalData {
         }
 
         @ConfigEntry.Gui.Tooltip(count = 0)
+        @Comment("""
+                Happy Pill Instant Health Chance | Default: 0.05f
+                """)
+        float happyPillInstantHealthChance = 0.05f;
+
+        public float getHappyPillInstantHealthChance() {
+            return Math.max(0, happyPillInstantHealthChance);
+        }
+
+        @ConfigEntry.Gui.Tooltip(count = 0)
         @Comment("Show Item Tooltips | Default: true")
         public boolean showItemTooltips = true;
     }

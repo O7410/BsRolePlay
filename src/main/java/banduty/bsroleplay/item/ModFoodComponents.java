@@ -10,5 +10,6 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, BsRolePlay.CONFIG.common.getHappyPillWeaknessTime()*20), BsRolePlay.CONFIG.common.getHappyPillWeaknessChance())
             .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, BsRolePlay.CONFIG.common.getHappyPillBlindnessTime()*20), BsRolePlay.CONFIG.common.getHappyPillBlindnessChance())
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, BsRolePlay.CONFIG.common.getHappyPillNauseaTime()*20), BsRolePlay.CONFIG.common.getHappyPillNauseaChance())
+            .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 20), BsRolePlay.CONFIG.common.getHappyPillInstantHealthChance())
             .build();
 }
