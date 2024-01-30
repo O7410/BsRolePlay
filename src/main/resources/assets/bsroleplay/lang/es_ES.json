@@ -33,7 +33,7 @@
   "item.bsroleplay.police_leggings": "Pantalón Policial",
   "item.bsroleplay.police_boots": "Zapatos Policiales",
 
-  "item.bsroleplay.pharaoh_staff": "Rayo Divino",
+  "item.bsroleplay.pharaoh_staff": "Bastón del Faraón",
   "tooltip.bsroleplay.pharaoh_staff.tooltip": "Al darle Clic Derecho aparece un Rayo",
 
   "item.bsroleplay.halo": "Aureola",
@@ -46,7 +46,27 @@
 
   "item.bsroleplay.civic_crown": "Láurea",
 
-  "item.bsroleplay.pill": "Pastilla de la Felicidad",
+  "item.bsroleplay.happy_pill": "Píldora Feliciana",
 
-  "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez"
+  "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez",
+
+  "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Relámpagos - Bastón del Faraón",
+  "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Colmillos de Evocador - Garfio",
+  "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Sonido - Martillo del Juez",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown": "Enfriamiento - Bastón del Faraón",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown": "Enfriamiento - Garfio",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown": "Enfriamiento - Martillo de Juez",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime": "Tiempo de Ceguera - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessChance": "Posibilidad Ceguera - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime": "Tiempo de Debilidad - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessChance": "Posibilidad Debilidad - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Tiempo de Nausea - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "En Segundos",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Posibilidad Nausea - Píldora Feliciana",
+  "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Información sobre Herramientas"
 }

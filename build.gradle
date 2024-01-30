@@ -48,6 +48,8 @@ dependencies {
 
 	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.20.4:4.4.1'
 
+	modApi "com.terraformersmc:modmenu:9.0.0"
+
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 

@@ -14,8 +14,6 @@ public class ModItemGroups {
             new Identifier(BsRolePlay.MOD_ID,"crown"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bsroleplay"))
                     .icon(() -> new ItemStack(ModItems.CROWN)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.PILL);
-
                         entries.add(ModItems.JUDGE_CHESTPLATE);
                         entries.add(ModItems.JUDGE_LEGGINGS);
                         entries.add(ModItems.JUDGE_BOOTS);
@@ -53,6 +51,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PHARAOH_STAFF);
 
                         entries.add(ModItems.DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC);
+
+                        entries.add(ModItems.HAPPY_PILL);
 
                     }).build());
 

@@ -1,13 +1,14 @@
 package banduty.bsroleplay.item;
 
+import banduty.bsroleplay.BsRolePlay;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
     public static final FoodComponent PILL = new FoodComponent.Builder()
-            .statusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 600), 1f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 60), 1f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, BsRolePlay.CONFIG.common.getHappyPillWeaknessTime()*20), BsRolePlay.CONFIG.common.getHappyPillWeaknessChance())
+            .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, BsRolePlay.CONFIG.common.getHappyPillBlindnessTime()*20), BsRolePlay.CONFIG.common.getHappyPillBlindnessChance())
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, BsRolePlay.CONFIG.common.getHappyPillNauseaTime()*20), BsRolePlay.CONFIG.common.getHappyPillNauseaChance())
             .build();
 }

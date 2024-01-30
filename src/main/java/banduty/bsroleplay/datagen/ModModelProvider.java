@@ -61,6 +61,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.CIVIC_CROWN, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.PILL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAPPY_PILL, Models.GENERATED);
     }
 }

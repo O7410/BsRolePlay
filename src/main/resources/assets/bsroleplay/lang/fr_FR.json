@@ -33,7 +33,7 @@
   "item.bsroleplay.police_leggings": "Pantalon de Police",
   "item.bsroleplay.police_boots": "Chaussures de Police",
 
-  "item.bsroleplay.pharaoh_staff": "Rayon Divin",
+  "item.bsroleplay.pharaoh_staff": "Bâton du Pharaon",
   "tooltip.bsroleplay.pharaoh_staff.tooltip": "Lorsque vous faites un clic droit, un éclair apparaît",
 
   "item.bsroleplay.halo": "Aura",
@@ -46,7 +46,27 @@
 
   "item.bsroleplay.civic_crown": "Couronne Triomphale",
 
-  "item.bsroleplay.pill": "Bonne Pilule",
+  "item.bsroleplay.happy_pill": "Pilule Heureuse",
 
-  "sounds.bsroleplay.judge_hammer_right_click": "Coup de Marteau du Juge"
+  "sounds.bsroleplay.judge_hammer_right_click": "Coup de Marteau du Juge",
+
+  "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Éclairs - Bâton du Pharaon",
+  "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Evoker Fang - Crochet",
+  "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Son - Marteau du Juge",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown": "Refroidissement - Bâton du Pharaon",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown": "Refroidissement - Crochet",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown": "Refroidissement - Marteau du Juge",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime": "Temps de Cécité - Pilule Heureuse",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessChance": "Risque de Cécité - Pilule Heureuse",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime": "Temps de Faiblesse - Pilule Heureuse",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessChance": "Risque de Faiblesse - Pilule Heureuse",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Temps de Nausée - Pilule Heureuse",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "En Secondes",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Risque de Nausée - Pilule Heureuse",
+  "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Info-bulles des Éléments"
 }
