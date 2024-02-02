@@ -43,6 +43,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.CIVIC_CROWN);
 
+                        entries.add(ModItems.COWBOY_HAT);
+                        entries.add(ModItems.PONCHO);
+
                         entries.add(ModItems.HALO);
 
                         entries.add(ModItems.JUDGE_HAMMER);

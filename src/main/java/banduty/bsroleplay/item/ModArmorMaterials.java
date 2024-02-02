@@ -36,8 +36,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     PHARAOH("pharaoh", 20, new int[] { 5, 0, 0, 0 }, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(Items.SANDSTONE)),
-    ROMAN("roman", 3, new int[] { 2, 0, 0, 0 }, 19,
-            SoundEvents.BLOCK_AZALEA_LEAVES_PLACE, 2f, 0.1f, () -> Ingredient.ofItems(Items.GOLD_INGOT))
+    ROMAN("roman", 2, new int[] { 2, 0, 0, 0 }, 19,
+            SoundEvents.BLOCK_AZALEA_LEAVES_PLACE, 2f, 0.1f, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
+
+    COWBOY("cowboy", 3, new int[] { 3, 0, 0, 0 }, 19,
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2f, 0.1f, () -> Ingredient.ofItems(Items.LEATHER))
 
     ;
 

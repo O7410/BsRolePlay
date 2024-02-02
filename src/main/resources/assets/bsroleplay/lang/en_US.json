@@ -44,6 +44,9 @@
 
   "item.bsroleplay.civic_crown": "Civic Crown",
 
+  "item.bsroleplay.cowboy_hat": "Cowboy Hat",
+  "item.bsroleplay.poncho": "Poncho",
+
   "item.bsroleplay.happy_pill": "Happy Pill",
 
   "itemgroup.bsroleplay": "BsRolePlay",
@@ -51,24 +54,24 @@
   "sounds.bsroleplay.judge_hammer_right_click": "Judge Hammer Noise",
 
   "text.autoconfig.bsroleplay.title": "Banduty's Roleplay",
-  "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Allow Pharaoh Staff throw Lightnings",
-  "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Allow Hook spawn Evoker Fang",
-  "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Allow Judge Hammer make Sound",
-  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown": "Pharaoh Staff Cooldown",
+  "text.autoconfig.bsroleplay.option.common.modifyPharaohStaffLightning": "Pharaoh Staff - Lightnings",
+  "text.autoconfig.bsroleplay.option.common.modifyHookEvokerFang": "Hook - Evoker Fang",
+  "text.autoconfig.bsroleplay.option.common.modifyJudgeHammerSound": "Judge Hammer - Sound",
+  "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown": "Pharaoh Staff - Cooldown",
   "text.autoconfig.bsroleplay.option.common.pharaohStaffCooldown.@Tooltip": "In Seconds",
-  "text.autoconfig.bsroleplay.option.common.hookCooldown": "Hook Cooldown",
+  "text.autoconfig.bsroleplay.option.common.hookCooldown": "Hook - Cooldown",
   "text.autoconfig.bsroleplay.option.common.hookCooldown.@Tooltip": "In Seconds",
-  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown": "Judge Hammer Cooldown",
+  "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown": "Judge Hammer - Cooldown",
   "text.autoconfig.bsroleplay.option.common.judgeHammerCooldown.@Tooltip": "In Seconds",
-  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime": "Happy Pill Blindness Time",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime": "Happy Pill - Blindness Time",
   "text.autoconfig.bsroleplay.option.common.happyPillBlindnessTime.@Tooltip": "In Seconds",
-  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessChance": "Happy Pill Blindness Chance",
-  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime": "Happy Pill Weakness Time",
+  "text.autoconfig.bsroleplay.option.common.happyPillBlindnessChance": "Happy Pill - Blindness Chance",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime": "Happy Pill - Weakness Time",
   "text.autoconfig.bsroleplay.option.common.happyPillWeaknessTime.@Tooltip": "In Seconds",
-  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessChance": "Happy Pill Weakness Chance",
-  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Happy Pill Nausea Time",
+  "text.autoconfig.bsroleplay.option.common.happyPillWeaknessChance": "Happy Pill - Weakness Chance",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime": "Happy Pill - Nausea Time",
   "text.autoconfig.bsroleplay.option.common.happyPillNauseaTime.@Tooltip": "In Seconds",
-  "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Happy Pill Nausea Chance",
-  "text.autoconfig.bsroleplay.option.common.happyPillInstantHealthChance": "Happy Pill Instant Health Chance",
+  "text.autoconfig.bsroleplay.option.common.happyPillNauseaChance": "Happy Pill - Nausea Chance",
+  "text.autoconfig.bsroleplay.option.common.happyPillInstantHealthChance": "Happy Pill - Instant Health Chance",
   "text.autoconfig.bsroleplay.option.common.showItemTooltips": "Show Item Tooltips"
 }

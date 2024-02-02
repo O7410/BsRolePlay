@@ -292,5 +292,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
                 .criterion(hasItem(Items.LAPIS_BLOCK), conditionsFromItem(Items.LAPIS_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.PHARAOH_STAFF)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COWBOY_HAT, 1)
+                .pattern("L L")
+                .pattern("LGL")
+                .pattern("LLL")
+                .input('G', Items.GOLD_INGOT)
+                .input('L', Items.LEATHER)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COWBOY_HAT)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PONCHO, 1)
+                .pattern("RRR")
+                .pattern("RLL")
+                .pattern("L  ")
+                .input('R', Items.RED_WOOL)
+                .input('L', Items.LEATHER)
+                .criterion(hasItem(Items.RED_WOOL), conditionsFromItem(Items.RED_WOOL))
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PONCHO)));
     }
 }

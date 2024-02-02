@@ -84,6 +84,12 @@ public class ModItems {
     public static final Item HAPPY_PILL= registerItem("happy_pill",
             new Item(new FabricItemSettings().food(ModFoodComponents.PILL).maxCount(3)));
 
+    public static final Item COWBOY_HAT= registerItem("cowboy_hat",
+            new CowboyItem(ModArmorMaterials.COWBOY, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
+
+    public static final Item PONCHO= registerItem("poncho",
+            new CowboyItem(ModArmorMaterials.COWBOY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().rarity(Rarity.EPIC)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 

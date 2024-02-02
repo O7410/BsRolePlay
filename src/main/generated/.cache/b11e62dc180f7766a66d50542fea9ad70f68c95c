@@ -1,11 +1,13 @@
-// 1.20.4	2024-01-30T01:02:59.2028311	BsRolePlay/Recipes
+// 1.20.4	2024-02-02T18:57:29.3452444	BsRolePlay/Recipes
 3d8f3609d08c5052b943a50e9eded0dbe56b549e data\bsroleplay\recipes\judge_chestplate.json
 18727dd16b60ffbc528fa574d79a870145f7a87b data\bsroleplay\recipes\police_chestplate.json
 14cd8d3dbe20df4a4b06d90291fe4a10d9a7bfd3 data\bsroleplay\recipes\blue_pirate_chestplate.json
+39582fd62e766f874463bb9efa8b8d3c426a5d02 data\bsroleplay\advancements\recipes\misc\cowboy_hat.json
 e5cd2f741262e21608fb013d20b30e0986a61b4a data\bsroleplay\advancements\recipes\misc\crown.json
 1f31bfaa36d979b7510d046cfd7dcd9360ec6e9c data\bsroleplay\recipes\funeral_mask.json
 9d80542fc4f722083c17f1823270c4eb19273203 data\bsroleplay\advancements\recipes\misc\police_leggings.json
 b7e31873306768318db2aaa6f2adb248ec7ab00b data\bsroleplay\recipes\red_pirate_helmet.json
+48bbd7368772672db941065f2b3838795339cf02 data\bsroleplay\recipes\cowboy_hat.json
 318d39601bd35147cfe307378fea71abf2abb4fd data\bsroleplay\recipes\dream_mask.json
 8f8d16dd8ecfceb4cbafa01f85a4b7428ce646d6 data\bsroleplay\advancements\recipes\misc\police_boots.json
 c5351832f08e55b6ed0d3a3775cc1bdcb317b48f data\bsroleplay\recipes\bunny_mask.json
@@ -35,6 +37,7 @@ a0f37e2184e626d7677cd8ee6cf218b0529a673c data\bsroleplay\advancements\recipes\mi
 9eb7f8902a6c4d9f0ee5e06ad137c33acbd72354 data\bsroleplay\advancements\recipes\misc\blue_pirate_leggings.json
 bd7dc5d0345a61a337216998b43e010fdbfccefb data\bsroleplay\recipes\judge_hammer.json
 e7754fa57a3df8b3b1df7d432d26204108a0f2e1 data\bsroleplay\recipes\police_boots.json
+9fd045b8902413e26902dfc9dfd72b691b3439e2 data\bsroleplay\advancements\recipes\misc\poncho.json
 2abff729116635e3f122c8a11330e3f20b652084 data\bsroleplay\advancements\recipes\misc\pharaoh_staff.json
 a4fe33275c92a8f22ec1c1e3903b5d2ce4b9e98b data\bsroleplay\recipes\blue_pirate_leggings.json
 3879965bb3cf41efa8073a13d8ab42ae584849d8 data\bsroleplay\recipes\police_baton.json
@@ -48,6 +51,7 @@ dde35ad2e0adb66642f8634e5b8aed016778277d data\bsroleplay\recipes\dolor_en_el_pec
 9691b480233a6c088e8721202a86fff6c11e9df5 data\bsroleplay\recipes\judge_boots.json
 d106d4dcb3a7798644bc0b9cb8c312ab4ed8cc5d data\bsroleplay\recipes\hook.json
 5fab9ae937cd9fe2d9f5b150b45587181c0b865b data\bsroleplay\recipes\blue_pirate_helmet.json
+5d1875e6b0f77ecd3d5e5a6d30c983899b836e69 data\bsroleplay\recipes\poncho.json
 c1e2f4e96deb57f8d69d8d224f7ea24f3a8f263a data\bsroleplay\advancements\recipes\misc\judge_boots.json
 6adae38ba862acf7d1d3f70a8ecf0b97324d04e7 data\bsroleplay\advancements\recipes\misc\red_pirate_helmet.json
 52982e8231dc47e201ccd18e7545724beef8f1ff data\bsroleplay\advancements\recipes\misc\judge_chestplate.json
