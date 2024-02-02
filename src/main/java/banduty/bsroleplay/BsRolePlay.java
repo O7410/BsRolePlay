@@ -3,7 +3,6 @@ package banduty.bsroleplay;
 import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
-import banduty.bsroleplay.recipe.ModRecipes;
 import banduty.bsroleplay.sound.ModSounds;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
@@ -29,8 +28,6 @@ public class BsRolePlay implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModSounds.registerSounds();
-
-		ModRecipes.registerRecipes();
 
 		GeckoLib.initialize();
 	}
