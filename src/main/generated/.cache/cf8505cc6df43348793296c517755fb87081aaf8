@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-02T18:57:29.3482425	BsRolePlay/Model Definitions
+// 1.20.4	2024-02-06T16:59:32.8738704	BsRolePlay/Model Definitions
 76ab42babb234de2a9e9a807451d675786f53509 assets\bsroleplay\models\item\police_boots_copper_trim.json
 466b6bc005a42ebf0b3d3eae8e92a927c9c2588e assets\bsroleplay\models\item\police_leggings_diamond_trim.json
 515b582c3c22be72f92368d582c5ce9f49bae69e assets\bsroleplay\models\item\red_pirate_leggings.json
@@ -12,6 +12,7 @@ e33a3e3842358c91d9822c86b7a88fa30e0c0804 assets\bsroleplay\models\item\judge_leg
 c94e2bf532476371fcd6459e92247101bce85b32 assets\bsroleplay\models\item\judge_hammer.json
 19192b560a49f20a129ecb1ec4928fe90179c7fa assets\bsroleplay\models\item\judge_chestplate_amethyst_trim.json
 a81db3b57975c35dcd7171ccd468767d6ef8fa26 assets\bsroleplay\models\item\judge_leggings_diamond_trim.json
+acb694ad46b5a274ee03fb7a83d1a4ac800e5a0d assets\bsroleplay\models\item\protection_leggings.json
 635f67c496448ab2007cc01fc0e7fc2113fea0a1 assets\bsroleplay\models\item\judge_chestplate_netherite_trim.json
 a852149e0f365e99de72f244ee79130c64a555ec assets\bsroleplay\models\item\halo.json
 f141e5a28a4437cb0409007b25fe203a84459978 assets\bsroleplay\models\item\judge_chestplate_gold_trim.json
@@ -29,6 +30,7 @@ cdfdb9a9bcea9572fcd38a746a162e223cd0133c assets\bsroleplay\models\item\judge_boo
 baf879d88d877eca9f366bf0e516feafc3d75d23 assets\bsroleplay\models\item\judge_boots_amethyst_trim.json
 88a180fb4b29d05d6d438ce184169299fe0163c1 assets\bsroleplay\models\item\judge_boots_redstone_trim.json
 2eac29e2b87a68d780fe5d0ad91b9e014e721c11 assets\bsroleplay\models\item\police_leggings_netherite_trim.json
+1c52b1a36a43b4ab24694f1d63038c66b0849d61 assets\bsroleplay\models\item\protection_chestplate.json
 34879230cfddb19a3d6e0dcc92e501df52ecdf3b assets\bsroleplay\models\item\police_baton.json
 107cbe2443460f5d17fbb4db0fd1d2f7547f86c5 assets\bsroleplay\models\item\police_leggings_copper_trim.json
 b1758dcb5d920486c9af47b5718fb8d4b044def6 assets\bsroleplay\models\item\judge_leggings.json
@@ -42,6 +44,8 @@ b1758dcb5d920486c9af47b5718fb8d4b044def6 assets\bsroleplay\models\item\judge_leg
 0f41c2bffd62705838d69b24a39d9b668fb688c7 assets\bsroleplay\models\item\judge_boots_iron_trim.json
 524e4337b7a29a1f84b17b81452106fe8d352712 assets\bsroleplay\models\item\judge_chestplate_copper_trim.json
 2c74aac0b286dae43c3f6b3d967d9a5ac2bda6af assets\bsroleplay\models\item\police_boots_lapis_trim.json
+df0fdcacaf612440f3f137e4ff0f9273d3036e0c assets\bsroleplay\models\item\protection_boots.json
+73982755a7167b5604b678947715473a988eec29 assets\bsroleplay\models\item\roleplay_core.json
 5c52f0160e33816e58ea1ac4b3ea16556d4408dd assets\bsroleplay\models\item\police_boots_emerald_trim.json
 3b22be818569d3cc2367cce832c3aecd6968262f assets\bsroleplay\models\item\cowboy_hat.json
 66ad9f54f3d73c238cd7a24d939fa19b4bc2e195 assets\bsroleplay\models\item\police_boots_diamond_trim.json
@@ -87,4 +91,5 @@ a9ba3cec026e3d394b8102623b275f2fb30c727d assets\bsroleplay\models\item\judge_che
 c06d49caa79b5bbd9920a7d12c1a402da8e2cd83 assets\bsroleplay\models\item\police_leggings_lapis_trim.json
 795f13aa1ff70ff7c4b0454cf46fb312ad8e32dc assets\bsroleplay\models\item\blue_pirate_helmet.json
 ba507edf155a002858995a99c4aa5af22a936da7 assets\bsroleplay\models\item\police_chestplate_amethyst_trim.json
+4c6c05caeb0779589935bbfbce0debdd31f63d3f assets\bsroleplay\models\item\protection_helmet.json
 581523d0dfedce690dcffc025548baaa4a42d092 assets\bsroleplay\models\item\blue_pirate_leggings.json
