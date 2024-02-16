@@ -1,5 +1,7 @@
 package banduty.bsroleplay;
 
+import banduty.bsroleplay.block.ModBlock;
+import banduty.bsroleplay.block.entity.ModBlockEntities;
 import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
@@ -30,5 +32,8 @@ public class BsRolePlay implements ModInitializer {
 		ModSounds.registerSounds();
 
 		GeckoLib.initialize();
+
+		ModBlock.registerModBlocks();
+		ModBlockEntities.registerAllBlockEntities();
 	}
 }

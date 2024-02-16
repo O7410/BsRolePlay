@@ -63,6 +63,8 @@ public class ModItemGroups {
                         entries.add(ModItems.HAPPY_PILL);
                         entries.add(ModItems.SAD_PILL);
 
+                        entries.add(ModItems.HOLY_CLOUD_STATUE_ITEM);
+
                     }).build());
 
     public static void registerItemGroups() {
