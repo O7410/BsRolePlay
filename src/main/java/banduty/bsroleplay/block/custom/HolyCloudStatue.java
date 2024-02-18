@@ -27,7 +27,6 @@ public class HolyCloudStatue extends BlockWithEntity {
         super(settings);
     }
 
-
     protected static final VoxelShape BASE;
     protected static final VoxelShape WOOD;
     protected static final VoxelShape HEAD;

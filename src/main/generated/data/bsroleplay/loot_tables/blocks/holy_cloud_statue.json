@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "bsroleplay:holy_cloud_statue_item"
+          "name": "bsroleplay:holy_cloud_statue"
         }
       ],
       "rolls": 1.0
