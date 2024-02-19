@@ -1,27 +1,5 @@
 {
   "variants": {
-    "facing=north": [
-      {
-        "model": "bsroleplay:block/holy_cloud_statue"
-      }
-    ],
-    "facing=east": [
-      {
-        "model": "bsroleplay:block/holy_cloud_statue",
-        "y": 90
-      }
-    ],
-    "facing=south": [
-      {
-        "model": "bsroleplay:block/holy_cloud_statue",
-        "y": 180
-      }
-    ],
-    "facing=west": [
-      {
-        "model": "bsroleplay:block/holy_cloud_statue",
-        "y": 270
-      }
-    ]
+    "": { "model": "bsroleplay:block/holy_cloud_statue" }
   }
 }

@@ -104,7 +104,7 @@ public class ModItems {
             new SadPill(new FabricItemSettings().maxCount(BsRolePlay.CONFIG.common.getSadPillMaxStack()).rarity(Rarity.RARE)));
 
     public static final Item HOLY_CLOUD_STATUE_ITEM= registerItem("holy_cloud_statue",
-            new HolyCloudStatueItem(ModBlock.HOLY_CLOUD_STATUE, new FabricItemSettings().rarity(Rarity.EPIC)));
+            new HolyCloudStatueItem(ModBlock.HOLY_CLOUD_STATUE, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

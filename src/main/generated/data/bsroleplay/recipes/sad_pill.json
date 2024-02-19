@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "P": {
+      "item": "bsroleplay:pill_core"
+    }
+  },
+  "pattern": [
+    "   ",
+    " N ",
+    " P "
+  ],
+  "result": {
+    "item": "bsroleplay:sad_pill"
+  }
+}
