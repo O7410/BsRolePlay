@@ -106,6 +106,9 @@ public class ModItems {
     public static final Item HOLY_CLOUD_STATUE_ITEM= registerItem("holy_cloud_statue",
             new HolyCloudStatueItem(ModBlock.HOLY_CLOUD_STATUE, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1)));
 
+    public static final Item GADGET_HAT= registerItem("gadget_hat",
+            new GadgetArmor(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 

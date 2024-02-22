@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-19T01:20:57.6539591	BsRolePlay/Model Definitions
+// 1.20.4	2024-02-20T23:22:09.9234802	BsRolePlay/Model Definitions
 3b22be818569d3cc2367cce832c3aecd6968262f assets\bsroleplay\models\item\cowboy_hat.json
 84ec0fb2d662405abec089bc813e5b5c659349d3 assets\bsroleplay\models\item\blue_pirate_chestplate.json
 682244f2c8c786616dde28b802fa702b98392d19 assets\bsroleplay\models\item\civic_crown.json
@@ -15,6 +15,7 @@ acb694ad46b5a274ee03fb7a83d1a4ac800e5a0d assets\bsroleplay\models\item\protectio
 a852149e0f365e99de72f244ee79130c64a555ec assets\bsroleplay\models\item\halo.json
 2309a31b971480d9526939ab61b6c4ff524dc5d4 assets\bsroleplay\models\item\police_boots.json
 6088d0e7b29ebb7f69c77cb7a2785a64993469b4 assets\bsroleplay\models\item\neanderthal_chestplate.json
+9e9252e21c525f5cd7beb1c5ea6c66f11f32f764 assets\bsroleplay\models\item\gadget_hat.json
 587af49eb94617e5d40366b541a2f6bb7be30dd1 assets\bsroleplay\models\item\hook.json
 c1fed0545dc2dd265526c4b8d7ef11a5bf8ea6c7 assets\bsroleplay\models\item\bunny_mask.json
 e9a226fef62cf8c5159d304d3fa12e1914e81b24 assets\bsroleplay\models\item\dream_mask.json

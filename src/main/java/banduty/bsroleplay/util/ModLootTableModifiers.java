@@ -14,6 +14,9 @@ public class ModLootTableModifiers {
     private static final Identifier DESERT_PYRAMID_ID =
             new Identifier("minecraft", "chests/desert_pyramid");
 
+    private static final Identifier VILLAGE_TOOLSMITH_ID =
+            new Identifier("minecraft", "chests/village_toolsmith");
+
     private static final Identifier ANCIENT_CITY_ID =
             new Identifier("minecraft", "chests/ancient_city");
 
@@ -34,6 +37,16 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f))
                         .with(ItemEntry.builder(ModItems.FUNERAL_MASK))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if(VILLAGE_TOOLSMITH_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.1f))
+                        .with(ItemEntry.builder(ModItems.GADGET_HAT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

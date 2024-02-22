@@ -38,10 +38,9 @@ public class HolyCloudStatue extends BlockWithEntity {
         TAIL = Block.createCuboidShape(2.0, 12.0, 14.0, 12.0, 20.0, 20.0);
         HOLY_CLOUD_STATUE = VoxelShapes.union(BASE, WOOD, HEAD, BODY_1, BODY_2, TAIL);
     }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return HOLY_CLOUD_STATUE;
+        return BASE;
     }
 
     @Override

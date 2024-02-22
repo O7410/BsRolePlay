@@ -37,7 +37,6 @@ public class BsRolePlay implements ModInitializer {
 		ModBlock.registerModBlocks();
 		ModBlockEntities.registerAllBlockEntities();
 
-
 		ModLootTableModifiers.modifyLootTables();
 	}
 }

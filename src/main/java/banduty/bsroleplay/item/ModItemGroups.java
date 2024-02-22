@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CROWN)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ROLEPLAY_CORE);
                         entries.add(ModItems.PILL_CORE);
+                        entries.add(ModItems.HOLY_CLOUD_STATUE_ITEM);
 
                         entries.add(ModItems.POLICE_HELMET);
                         entries.add(ModItems.POLICE_CHESTPLATE);
@@ -51,6 +52,8 @@ public class ModItemGroups {
                         entries.add(ModItems.COWBOY_HAT);
                         entries.add(ModItems.PONCHO);
 
+                        entries.add(ModItems.GADGET_HAT);
+
                         entries.add(ModItems.HALO);
 
                         entries.add(ModItems.JUDGE_HAMMER);
@@ -63,7 +66,6 @@ public class ModItemGroups {
                         entries.add(ModItems.HAPPY_PILL);
                         entries.add(ModItems.SAD_PILL);
 
-                        entries.add(ModItems.HOLY_CLOUD_STATUE_ITEM);
 
                     }).build());
 
