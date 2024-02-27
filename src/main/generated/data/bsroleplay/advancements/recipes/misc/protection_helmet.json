@@ -59,8 +59,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_yellow_wool",
       "has_black_wool",
+      "has_yellow_wool",
       "has_glass",
       "has_roleplay_core"
     ]

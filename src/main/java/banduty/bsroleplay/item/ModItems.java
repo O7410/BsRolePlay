@@ -109,6 +109,23 @@ public class ModItems {
     public static final Item GADGET_HAT= registerItem("gadget_hat",
             new GadgetArmor(ModArmorMaterials.MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
+    public static final Item LAWYER_BLACKBLUE_CHESTPLATE= registerItem("lawyer_blackblue_chestplate",
+            new LawyerBlackAndBlueItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_BLACKGOLD_CHESTPLATE= registerItem("lawyer_blackgold_chestplate",
+            new LawyerBlackAndGoldItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_BLACKRED_CHESTPLATE= registerItem("lawyer_blackred_chestplate",
+            new LawyerBlackAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_LEGGINGS_BLACK= registerItem("lawyer_leggings_black",
+            new LawyerBlackAndBlueItem(ModArmorMaterials.MASK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item LAWYER_BOOTS_BLACK= registerItem("lawyer_boots_black",
+            new LawyerBlackAndBlueItem(ModArmorMaterials.MASK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item LAWYER_PURPLERED_CHESTPLATE= registerItem("lawyer_purplered_chestplate",
+            new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item LAWYER_LEGGINGS_PURPLE= registerItem("lawyer_leggings_purple",
+            new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item LAWYER_BOOTS_PURPLE= registerItem("lawyer_boots_purple",
+            new LawyerPurpleAndRedItem(ModArmorMaterials.MASK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 
