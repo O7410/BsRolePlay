@@ -34,7 +34,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     PHARAOH("a", 20, new int[] { 5, 0, 0, 0 }, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2f, 0.1f, () -> Ingredient.ofItems(Items.SANDSTONE)),
-    ROMAN("a", 2, new int[] { 2, 0, 0, 0 }, 19,
+    ROMAN("a", 2, new int[] { 2, 5, 0, 0 }, 19,
             SoundEvents.BLOCK_AZALEA_LEAVES_PLACE, 2f, 0.1f, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
 
     COWBOY("a", 3, new int[] { 3, 0, 0, 0 }, 19,
