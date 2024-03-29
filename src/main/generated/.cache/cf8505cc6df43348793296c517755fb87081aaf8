@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-23T12:26:36.7107545	BsRolePlay/Model Definitions
+// 1.20.4	2024-03-29T01:57:11.6367972	BsRolePlay/Model Definitions
 3b22be818569d3cc2367cce832c3aecd6968262f assets\bsroleplay\models\item\cowboy_hat.json
 84ec0fb2d662405abec089bc813e5b5c659349d3 assets\bsroleplay\models\item\blue_pirate_chestplate.json
 f736b9e5f422ae34e1a50e024bc8d889463d2e2a assets\bsroleplay\models\item\lawyer_leggings_purple.json
@@ -10,6 +10,7 @@ f736b9e5f422ae34e1a50e024bc8d889463d2e2a assets\bsroleplay\models\item\lawyer_le
 5c552247f27fffde41c7043025c5bb6bf44ca581 assets\bsroleplay\models\item\poncho.json
 94a6653ec29444ce864bebff85c960551d17293a assets\bsroleplay\models\item\dolor_en_el_pecho_carola_music_disc.json
 de7e6a34dfc87d49a5a5c189346e10149aadb352 assets\bsroleplay\models\item\police_leggings.json
+e8a7ff6250b6cf7b4453674fb15c8b05f76eae90 assets\bsroleplay\models\item\handcuffs.json
 37d92e87ace6ac3d3994128a6f52a4c5387a8382 assets\bsroleplay\models\item\police_helmet.json
 c94e2bf532476371fcd6459e92247101bce85b32 assets\bsroleplay\models\item\judge_hammer.json
 acb694ad46b5a274ee03fb7a83d1a4ac800e5a0d assets\bsroleplay\models\item\protection_leggings.json
@@ -22,6 +23,7 @@ a852149e0f365e99de72f244ee79130c64a555ec assets\bsroleplay\models\item\halo.json
 5cfb8ca346b4c3f0394aadb3b6da7a1e09ad46be assets\bsroleplay\models\item\lawyer_leggings_black.json
 c1fed0545dc2dd265526c4b8d7ef11a5bf8ea6c7 assets\bsroleplay\models\item\bunny_mask.json
 e9a226fef62cf8c5159d304d3fa12e1914e81b24 assets\bsroleplay\models\item\dream_mask.json
+efd2a3edfa4d3a73b02fa696f26d9bea5d37e4aa assets\bsroleplay\models\item\handcuffs_key.json
 8a408b33732650fbe8564a97994b4a91ce02fa45 assets\bsroleplay\models\item\lawyer_purplered_chestplate.json
 01cfde2ead89e37dba4108e6ac4c98c8697dc268 assets\bsroleplay\models\item\lawyer_blackblue_chestplate.json
 1c52b1a36a43b4ab24694f1d63038c66b0849d61 assets\bsroleplay\models\item\protection_chestplate.json
