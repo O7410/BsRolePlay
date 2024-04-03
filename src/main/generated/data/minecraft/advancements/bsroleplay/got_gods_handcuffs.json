@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "bsroleplay:gods_handcuffs"
+              "bsroleplay:anti_god_handcuffs"
             ]
           }
         ]
@@ -19,8 +19,9 @@
     "description": {
       "translate": "advancement.gods_handcuffs.desc"
     },
+    "frame": "challenge",
     "icon": {
-      "item": "bsroleplay:gods_handcuffs"
+      "item": "bsroleplay:anti_god_handcuffs"
     },
     "title": {
       "translate": "advancement.gods_handcuffs.title"

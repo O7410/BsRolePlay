@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
-      "item": "minecraft:gold_nugget"
+    "A": {
+      "item": "minecraft:amethyst_shard"
     },
     "R": {
       "item": "bsroleplay:roleplay_core"
     }
   },
   "pattern": [
-    "RGG"
+    "AAR"
   ],
   "result": {
     "item": "bsroleplay:handcuffs_key"

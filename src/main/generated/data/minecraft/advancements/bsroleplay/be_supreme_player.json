@@ -12,6 +12,18 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "got_pharaoh_staff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bsroleplay:pharaoh_staff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -31,6 +43,9 @@
   "requirements": [
     [
       "got_funeral_mask"
+    ],
+    [
+      "got_pharaoh_staff"
     ]
   ],
   "sends_telemetry_event": true

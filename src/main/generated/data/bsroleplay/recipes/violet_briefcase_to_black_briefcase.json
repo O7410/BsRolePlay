@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "bsroleplay:purple_briefcase"
+    },
+    "P": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    " BP"
+  ],
+  "result": {
+    "item": "bsroleplay:black_briefcase"
+  }
+}

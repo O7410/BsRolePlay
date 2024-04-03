@@ -34,21 +34,7 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                 .criterion("got_roleplay_core", InventoryChangedCriterion.Conditions.items(ModItems.ROLEPLAY_CORE))
                 .build(consumer, BsRolePlay.MOD_ID + "/got_roleplay_core");
 
-        AdvancementEntry pharaohStaffAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
-                .display(
-                        ModItems.PHARAOH_STAFF,
-                        Text.translatable("advancement.pharaoh_staff.title"),
-                        Text.translatable("advancement.pharaoh_staff.desc"),
-                        null,
-                        AdvancementFrame.GOAL,
-                        true,
-                        false,
-                        false
-                )
-                .criterion("got_pharaoh_staff", InventoryChangedCriterion.Conditions.items(ModItems.PHARAOH_STAFF))
-                .build(consumer, BsRolePlay.MOD_ID + "/got_pharaoh_staff");
-
-        AdvancementEntry funeralMaskAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
+        AdvancementEntry supremePlayerAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
                 .display(
                         ModItems.FUNERAL_MASK,
                         Text.translatable("advancement.funeral_mask.title"),
@@ -60,7 +46,8 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                         false
                 )
                 .criterion("got_funeral_mask", InventoryChangedCriterion.Conditions.items(ModItems.FUNERAL_MASK))
-                .build(consumer, BsRolePlay.MOD_ID + "/got_funeral_mask");
+                .criterion("got_pharaoh_staff", InventoryChangedCriterion.Conditions.items(ModItems.PHARAOH_STAFF))
+                .build(consumer, BsRolePlay.MOD_ID + "/be_supreme_player");
 
         AdvancementEntry hookAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
                 .display(
@@ -154,32 +141,18 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                 .criterion("got_purple_boots", InventoryChangedCriterion.Conditions.items(ModItems.LAWYER_BOOTS_PURPLE))
                 .build(consumer, BsRolePlay.MOD_ID + "/got_purple_lawyer_set");
 
-        AdvancementEntry tinyBandutyAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
-                .display(
-                        ModItems.TINY_BANDUTY_ITEM,
-                        Text.translatable("advancement.tiny_banduty.title"),
-                        Text.translatable("advancement.tiny_banduty.desc"),
-                        null,
-                        AdvancementFrame.TASK,
-                        true,
-                        false,
-                        false
-                )
-                .criterion("got_tiny_banduty", InventoryChangedCriterion.Conditions.items(ModItems.TINY_BANDUTY_ITEM))
-                .build(consumer, BsRolePlay.MOD_ID + "/got_tiny_banduty");
-
         AdvancementEntry godsHandcuffsAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
                 .display(
-                        ModItems.GODS_HANDCUFFS,
+                        ModItems.ANTI_GOD_HANDCUFFS,
                         Text.translatable("advancement.gods_handcuffs.title"),
                         Text.translatable("advancement.gods_handcuffs.desc"),
                         null,
-                        AdvancementFrame.TASK,
+                        AdvancementFrame.CHALLENGE,
                         true,
                         false,
                         false
                 )
-                .criterion("got_gods_handcuffs", InventoryChangedCriterion.Conditions.items(ModItems.GODS_HANDCUFFS))
+                .criterion("got_gods_handcuffs", InventoryChangedCriterion.Conditions.items(ModItems.ANTI_GOD_HANDCUFFS))
                 .build(consumer, BsRolePlay.MOD_ID + "/got_gods_handcuffs");
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-31T22:20:23.2142173	BsRolePlay/Model Definitions
+// 1.20.4	2024-04-03T22:16:42.665882	BsRolePlay/Model Definitions
 3b22be818569d3cc2367cce832c3aecd6968262f assets\bsroleplay\models\item\cowboy_hat.json
 84ec0fb2d662405abec089bc813e5b5c659349d3 assets\bsroleplay\models\item\blue_pirate_chestplate.json
 f736b9e5f422ae34e1a50e024bc8d889463d2e2a assets\bsroleplay\models\item\lawyer_leggings_purple.json
@@ -8,8 +8,8 @@ f736b9e5f422ae34e1a50e024bc8d889463d2e2a assets\bsroleplay\models\item\lawyer_le
 8ee785112c929ac99826f79cac75e2aad72b733b assets\bsroleplay\models\item\pill_core.json
 8706a117b5623d8b847fa8413e4b73e0d4b067c0 assets\bsroleplay\models\item\red_pirate_chestplate.json
 5c552247f27fffde41c7043025c5bb6bf44ca581 assets\bsroleplay\models\item\poncho.json
+c296c95b04bbfae5ecc53277d3755aef81fb1ee4 assets\bsroleplay\models\item\anti_god_handcuffs.json
 94a6653ec29444ce864bebff85c960551d17293a assets\bsroleplay\models\item\dolor_en_el_pecho_carola_music_disc.json
-25300490f62182d6f780576eb6145acdd21553a6 assets\bsroleplay\models\item\gods_handcuffs.json
 de7e6a34dfc87d49a5a5c189346e10149aadb352 assets\bsroleplay\models\item\police_leggings.json
 e8a7ff6250b6cf7b4453674fb15c8b05f76eae90 assets\bsroleplay\models\item\handcuffs.json
 37d92e87ace6ac3d3994128a6f52a4c5387a8382 assets\bsroleplay\models\item\police_helmet.json
