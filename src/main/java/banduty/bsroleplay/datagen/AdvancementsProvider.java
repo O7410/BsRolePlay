@@ -110,20 +110,6 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                 .criterion("got_handcuffs", InventoryChangedCriterion.Conditions.items(ModItems.HANDCUFFS))
                 .build(consumer, BsRolePlay.MOD_ID + "/got_police_set");
 
-        AdvancementEntry bsroleplayStatueAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
-                .display(
-                        ModItems.HOLY_CLOUD_STATUE_ITEM,
-                        Text.translatable("advancement.bsroleplay_statue.title"),
-                        Text.translatable("advancement.bsroleplay_statue.desc"),
-                        null,
-                        AdvancementFrame.GOAL,
-                        true,
-                        false,
-                        false
-                )
-                .criterion("got_bsroleplay_statue", InventoryChangedCriterion.Conditions.items(ModItems.HOLY_CLOUD_STATUE_ITEM))
-                .build(consumer, BsRolePlay.MOD_ID + "/got_bsroleplay_statue");
-
         AdvancementEntry purpleLawyerSetAdvancement = Advancement.Builder.create().parent(roleplayCoreAdvancement)
                 .display(
                         ModItems.VIOLET_BRIEFCASE,
