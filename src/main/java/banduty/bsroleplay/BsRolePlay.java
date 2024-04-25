@@ -6,7 +6,9 @@ import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
 import banduty.bsroleplay.sound.ModSounds;
-import banduty.bsroleplay.util.ModLootTableModifiers;
+import banduty.bsroleplay.util.loot_table.BlocksLootTableModifier;
+import banduty.bsroleplay.util.loot_table.ChestLootTableModifier;
+import banduty.bsroleplay.util.loot_table.MobsLootTableModifier;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -37,6 +39,8 @@ public class BsRolePlay implements ModInitializer {
 		ModBlock.registerModBlocks();
 		ModBlockEntities.registerAllBlockEntities();
 
-		ModLootTableModifiers.modifyLootTables();
+		ChestLootTableModifier.modifyChestLootTables();
+		MobsLootTableModifier.modifyMobsLootTables();
+		BlocksLootTableModifier.modifyBlocksLootTables();
 	}
 }

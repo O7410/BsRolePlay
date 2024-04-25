@@ -37,7 +37,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     ROMAN("a", 2, new int[] { 0, 3, 0, 0 }, 0,
             SoundEvents.BLOCK_AZALEA_LEAVES_PLACE, 0f, 0f, () -> Ingredient.ofItems(ModItems.ROLEPLAY_CORE)),
 
-    COWBOY("a", 3, new int[] { 1, 0, 0, 0 }, 0,
+    COWBOY("a", 3, new int[] { 1, 1, 0, 0 }, 0,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0f, 0f, () -> Ingredient.ofItems(ModItems.ROLEPLAY_CORE)),
 
     PROTECTION("a", 11, new int[] { 1, 4, 3, 2 }, 0,

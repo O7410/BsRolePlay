@@ -75,7 +75,6 @@
     }
   },
   "display": {
-    "announce_to_chat": false,
     "description": {
       "translate": "advancement.police_set.desc"
     },
