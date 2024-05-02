@@ -6,10 +6,7 @@ import banduty.bsroleplay.item.custom.armor.*;
 import banduty.bsroleplay.item.custom.blocks.*;
 import banduty.bsroleplay.item.custom.blocks.currency.*;
 import banduty.bsroleplay.item.custom.item.*;
-import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -22,8 +19,6 @@ public class ModItems {
     public static final Item FUSION_CORE = registerItem("fusion_core",
             new Item(new FabricItemSettings()));
 
-    public static final Item DOLOR_EN_EL_PECHO_CAROLA_MUSIC_DISC = registerItem("dolor_en_el_pecho_carola_music_disc",
-            new MusicDiscItem(7, ModSounds.DOLOR_EN_EL_PECHO_CAROLA, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1), 113));
     public static final Item JUDGE_HAMMER = registerItem("judge_hammer",
             new JudgeHammer(new FabricItemSettings().maxCount(1).maxDamage(0).rarity(Rarity.UNCOMMON)));
 
@@ -167,15 +162,10 @@ public class ModItems {
     public static final Item NETHERITE_COIN_STACK = registerItem("netherite_coin_stack",
             new CoinStackItem(ModBlock.NETHERITE_COIN_STACK, new FabricItemSettings().rarity(Rarity.EPIC)));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-
-    }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BsRolePlay.MOD_ID, name), item);
     }
     public static void registerModItems() {
         BsRolePlay.LOGGER.info("Registering Mod Items for " + BsRolePlay.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
