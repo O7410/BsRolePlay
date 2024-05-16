@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ROLEPLAY_CORE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ROLEPLAY_CORE);
                         entries.add(ModItems.FUSION_CORE);
+                        entries.add(ModItems.WALLET);
                         entries.add(ModItems.BRIEFCASE);
                         entries.add(ModItems.BLACK_BRIEFCASE);
                         entries.add(ModItems.VIOLET_BRIEFCASE);
@@ -36,10 +37,12 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.literal("BsRoleplay Block"))
                     .icon(() -> new ItemStack(ModItems.TINY_BANDUTY_ITEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TINY_BANDUTY_ITEM);
-                        entries.add(ModItems.BRONZE_COIN);
-                        entries.add(ModItems.BRONZE_COIN_STACK);
+                        entries.add(ModItems.COPPER_COIN);
+                        entries.add(ModItems.COPPER_COIN_STACK);
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModItems.GOLD_COIN_STACK);
+                        entries.add(ModItems.AMETHYST_COIN);
+                        entries.add(ModItems.AMETHYST_COIN_STACK);
                         entries.add(ModItems.NETHERITE_COIN);
                         entries.add(ModItems.NETHERITE_COIN_STACK);
                     })
@@ -54,17 +57,20 @@ public class ModItemGroups {
                         entries.add(ModItems.POLICE_LEGGINGS);
                         entries.add(ModItems.POLICE_BOOTS);
 
+                        entries.add(ModItems.FEDORA);
+
                         entries.add(ModItems.LAWYER_BLACKBLUE_CHESTPLATE);
                         entries.add(ModItems.LAWYER_BLACKGOLD_CHESTPLATE);
                         entries.add(ModItems.LAWYER_BLACKRED_CHESTPLATE);
                         entries.add(ModItems.LAWYER_LEGGINGS_BLACK);
                         entries.add(ModItems.LAWYER_BOOTS_BLACK);
 
+                        entries.add(ModItems.FEDORA_PURPLE);
+
                         entries.add(ModItems.LAWYER_PURPLERED_CHESTPLATE);
                         entries.add(ModItems.LAWYER_LEGGINGS_PURPLE);
                         entries.add(ModItems.LAWYER_BOOTS_PURPLE);
 
-                        entries.add(ModItems.FEDORA);
 
                         entries.add(ModItems.RED_PIRATE_HELMET);
                         entries.add(ModItems.RED_PIRATE_CHESTPLATE);

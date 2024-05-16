@@ -85,9 +85,9 @@ public class MobsLootTableModifier {
                         WITHER_SKELETON_ID.equals(id) || ZOMBIE_ID.equals(id)) {
                     LootPool.Builder bronzeCoin = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
-                            .conditionally(RandomChanceLootCondition.builder(BsRolePlay.CONFIG.currency.getBronzeCoinChanceHostileMobs()))
-                            .with(ItemEntry.builder(ModItems.BRONZE_COIN))
-                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, BsRolePlay.CONFIG.currency.getBronzeCoinMaxAmountHostileMobs())).build());
+                            .conditionally(RandomChanceLootCondition.builder(BsRolePlay.CONFIG.currency.getCopperCoinChanceHostileMobs()))
+                            .with(ItemEntry.builder(ModItems.COPPER_COIN))
+                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, BsRolePlay.CONFIG.currency.getCopperCoinMaxAmountHostileMobs())).build());
 
                     tableBuilder.pool(bronzeCoin.build());
 
@@ -107,9 +107,9 @@ public class MobsLootTableModifier {
                 if (ELDER_GUARDIAN_ID.equals(id) || ENDER_DRAGON_ID.equals(id) || WARDEN_ID.equals(id) || WITHER_ID.equals(id)) {
                     LootPool.Builder bronzeCoin = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
-                            .conditionally(RandomChanceLootCondition.builder(BsRolePlay.CONFIG.currency.getBronzeCoinChanceBossMobs()))
-                            .with(ItemEntry.builder(ModItems.BRONZE_COIN))
-                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, BsRolePlay.CONFIG.currency.getBronzeCoinMaxAmountBossMobs())).build());
+                            .conditionally(RandomChanceLootCondition.builder(BsRolePlay.CONFIG.currency.getCopperCoinChanceBossMobs()))
+                            .with(ItemEntry.builder(ModItems.COPPER_COIN))
+                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, BsRolePlay.CONFIG.currency.getCopperCoinMaxAmountBossMobs())).build());
 
                     tableBuilder.pool(bronzeCoin.build());
 

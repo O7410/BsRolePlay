@@ -21,8 +21,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlock.TINY_BANDUTY,  ModItems.TINY_BANDUTY_ITEM);
-        addDrop(ModBlock.BRONZE_COIN,  ModItems.BRONZE_COIN);
-        addDrop(ModBlock.BRONZE_COIN_STACK, coinStackDrops(ModBlock.BRONZE_COIN_STACK, ModItems.BRONZE_COIN));
+        addDrop(ModBlock.COPPER_COIN,  ModItems.COPPER_COIN);
+        addDrop(ModBlock.COPPER_COIN_STACK, coinStackDrops(ModBlock.COPPER_COIN_STACK, ModItems.COPPER_COIN));
         addDrop(ModBlock.GOLD_COIN,  ModItems.GOLD_COIN);
         addDrop(ModBlock.GOLD_COIN_STACK,  coinStackDrops(ModBlock.GOLD_COIN_STACK, ModItems.GOLD_COIN));
         addDrop(ModBlock.NETHERITE_COIN,  ModItems.NETHERITE_COIN);

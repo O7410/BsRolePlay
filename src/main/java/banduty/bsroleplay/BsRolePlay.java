@@ -5,6 +5,7 @@ import banduty.bsroleplay.block.entity.ModBlockEntities;
 import banduty.bsroleplay.config.ModConfigs;
 import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
+import banduty.bsroleplay.screen.ModScreenHandlers;
 import banduty.bsroleplay.sound.ModSounds;
 import banduty.bsroleplay.util.loot_table.BlocksLootTableModifier;
 import banduty.bsroleplay.util.loot_table.ChestLootTableModifier;
@@ -33,6 +34,8 @@ public class BsRolePlay implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModSounds.registerSounds();
+
+		ModScreenHandlers.registerScreenHandlers();
 
 		GeckoLib.initialize();
 

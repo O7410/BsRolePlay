@@ -31,9 +31,9 @@ public class BlocksLootTableModifier {
                 if (COPPER_ORE_ID.equals(id) || DEEPSLATE_COPPER_ORE_ID.equals(id)) {
                     LootPool.Builder bronzeCoin = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
-                            .conditionally(RandomChanceLootCondition.builder(BsRolePlay.CONFIG.currency.getBronzeCoinChanceCopperOre()))
-                            .with(ItemEntry.builder(ModItems.BRONZE_COIN))
-                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, BsRolePlay.CONFIG.currency.getBronzeCoinMaxAmountCopperOre())).build());
+                            .conditionally(RandomChanceLootCondition.builder(BsRolePlay.CONFIG.currency.getCopperCoinChanceCopperOre()))
+                            .with(ItemEntry.builder(ModItems.COPPER_COIN))
+                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, BsRolePlay.CONFIG.currency.getCopperCoinMaxAmountCopperOre())).build());
 
                     tableBuilder.pool(bronzeCoin.build());
                 }

@@ -108,6 +108,7 @@ public class AdvancementsProvider extends FabricAdvancementProvider {
                         false
                 )
                 .criterion("got_purple_briefcase", InventoryChangedCriterion.Conditions.items(ModItems.VIOLET_BRIEFCASE))
+                .criterion("got_purple_fedora", InventoryChangedCriterion.Conditions.items(ModItems.FEDORA_PURPLE))
                 .criterion("got_purple_chestplate", InventoryChangedCriterion.Conditions.items(ModItems.LAWYER_PURPLERED_CHESTPLATE))
                 .criterion("got_purple_leggings", InventoryChangedCriterion.Conditions.items(ModItems.LAWYER_LEGGINGS_PURPLE))
                 .criterion("got_purple_boots", InventoryChangedCriterion.Conditions.items(ModItems.LAWYER_BOOTS_PURPLE))

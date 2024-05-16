@@ -144,23 +144,35 @@ public class ModItems {
     public static final Item FEDORA = registerItem("fedora",
             new ElegantItem(ModArmorMaterials.COWBOY, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
-    public static final Item BRONZE_COIN = registerItem("bronze_coin",
-            new RPCoinItem(ModBlock.BRONZE_COIN, new FabricItemSettings()));
+    public static final Item FEDORA_PURPLE = registerItem("fedora_purple",
+            new ElegantItem(ModArmorMaterials.COWBOY, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+
+    public static final Item COPPER_COIN = registerItem("copper_coin",
+            new RPCoinItem(ModBlock.COPPER_COIN, new FabricItemSettings()));
 
     public static final Item GOLD_COIN = registerItem("gold_coin",
             new RPCoinItem(ModBlock.GOLD_COIN, new FabricItemSettings().rarity(Rarity.UNCOMMON)));
 
+    public static final Item AMETHYST_COIN = registerItem("amethyst_coin",
+            new RPCoinItem(ModBlock.AMETHYST_COIN, new FabricItemSettings().rarity(Rarity.RARE)));
+
     public static final Item NETHERITE_COIN = registerItem("netherite_coin",
             new RPCoinItem(ModBlock.NETHERITE_COIN, new FabricItemSettings().rarity(Rarity.EPIC)));
 
-    public static final Item BRONZE_COIN_STACK = registerItem("bronze_coin_stack",
-            new CoinStackItem(ModBlock.BRONZE_COIN_STACK, new FabricItemSettings()));
+    public static final Item COPPER_COIN_STACK = registerItem("copper_coin_stack",
+            new CoinStackItem(ModBlock.COPPER_COIN_STACK, new FabricItemSettings()));
 
     public static final Item GOLD_COIN_STACK = registerItem("gold_coin_stack",
             new CoinStackItem(ModBlock.GOLD_COIN_STACK, new FabricItemSettings().rarity(Rarity.UNCOMMON)));
 
+    public static final Item AMETHYST_COIN_STACK = registerItem("amethyst_coin_stack",
+            new CoinStackItem(ModBlock.AMETHYST_COIN_STACK, new FabricItemSettings().rarity(Rarity.RARE)));
+
     public static final Item NETHERITE_COIN_STACK = registerItem("netherite_coin_stack",
             new CoinStackItem(ModBlock.NETHERITE_COIN_STACK, new FabricItemSettings().rarity(Rarity.EPIC)));
+
+    public static final Item WALLET = registerItem("wallet",
+            new Wallet(new FabricItemSettings().maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BsRolePlay.MOD_ID, name), item);

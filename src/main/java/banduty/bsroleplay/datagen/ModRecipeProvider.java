@@ -675,11 +675,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HANDCUFFS)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HANDCUFFS_KEY, 1)
-                .pattern("AAR")
-                .input('R', ModItems.ROLEPLAY_CORE)
-                .input('A', Items.AMETHYST_SHARD)
-                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
-                .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
+                .pattern("P ")
+                .pattern("I ")
+                .pattern("IN")
+                .input('P', Items.PRISMARINE_SHARD)
+                .input('I', Items.IRON_INGOT)
+                .input('N', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.PRISMARINE_SHARD), conditionsFromItem(Items.PRISMARINE_SHARD))
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HANDCUFFS_KEY)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FEDORA, 1)
@@ -694,19 +698,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.FEDORA)));
 
-        offerReversibleCompactingRecipesWithReverseRecipeGroup(exporter, RecipeCategory.MISC, ModItems.BRONZE_COIN, RecipeCategory.MISC,
-                ModItems.BRONZE_COIN_STACK, "bronze_coin_stack_from_bronze_coin", "bronze_coin");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.WALLET, 1)
+                .pattern("LLL")
+                .pattern("GB ")
+                .pattern("LLL")
+                .input('B', ModItems.COPPER_COIN)
+                .input('L', Items.LEATHER)
+                .input('G', Items.GOLD_NUGGET)
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .criterion(hasItem(Items.GOLD_NUGGET), conditionsFromItem(Items.GOLD_NUGGET))
+                .criterion(hasItem(ModItems.COPPER_COIN), conditionsFromItem(ModItems.COPPER_COIN))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WALLET)));
 
-        offerReversibleCompactingRecipesWithReverseRecipeGroup(exporter, RecipeCategory.MISC, ModItems.BRONZE_COIN_STACK, RecipeCategory.MISC,
-                ModItems.GOLD_COIN, "gold_coin_from_bronze_coin_stack", "bronze_coin_stack");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.COPPER_COIN, RecipeCategory.MISC,
+                ModItems.COPPER_COIN_STACK);
 
-        offerReversibleCompactingRecipesWithReverseRecipeGroup(exporter, RecipeCategory.MISC, ModItems.GOLD_COIN, RecipeCategory.MISC,
-                ModItems.GOLD_COIN_STACK, "gold_coin_stack_from_gold_coin", "gold_coin");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.GOLD_COIN, RecipeCategory.MISC,
+                ModItems.GOLD_COIN_STACK);
 
-        offerReversibleCompactingRecipesWithReverseRecipeGroup(exporter, RecipeCategory.MISC, ModItems.GOLD_COIN_STACK, RecipeCategory.MISC,
-                ModItems.NETHERITE_COIN, "netherite_coin_from_gold_coin_stack", "gold_coin_stack");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.AMETHYST_COIN, RecipeCategory.MISC,
+                ModItems.AMETHYST_COIN_STACK);
 
-        offerReversibleCompactingRecipesWithReverseRecipeGroup(exporter, RecipeCategory.MISC, ModItems.NETHERITE_COIN, RecipeCategory.MISC,
-                ModItems.NETHERITE_COIN_STACK, "netherite_coin_stack_from_netherite_coin", "netherite_coin");
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.NETHERITE_COIN, RecipeCategory.MISC,
+                ModItems.NETHERITE_COIN_STACK);
     }
 }

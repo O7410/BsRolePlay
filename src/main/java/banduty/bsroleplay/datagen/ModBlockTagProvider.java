@@ -15,16 +15,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlock.BRONZE_COIN)
-                .add(ModBlock.BRONZE_COIN_STACK)
+                .add(ModBlock.COPPER_COIN)
+                .add(ModBlock.COPPER_COIN_STACK)
                 .add(ModBlock.GOLD_COIN)
                 .add(ModBlock.GOLD_COIN_STACK)
                 .add(ModBlock.NETHERITE_COIN)
                 .add(ModBlock.NETHERITE_COIN_STACK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlock.BRONZE_COIN)
-                .add(ModBlock.BRONZE_COIN_STACK)
+                .add(ModBlock.COPPER_COIN)
+                .add(ModBlock.COPPER_COIN_STACK)
                 .add(ModBlock.GOLD_COIN)
                 .add(ModBlock.GOLD_COIN_STACK)
                 .add(ModBlock.NETHERITE_COIN)
