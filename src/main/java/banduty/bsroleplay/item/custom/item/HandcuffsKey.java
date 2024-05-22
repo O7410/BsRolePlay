@@ -39,7 +39,7 @@ public class HandcuffsKey extends Item {
                 entity.sendMessage(Text.translatable("message.bsroleplay.handcuff_key.free_2").formatted(Formatting.GREEN));
                 user.sendMessage(Text.translatable("message.bsroleplay.handcuff_key.free_1", entity.getName().getString()).formatted(Formatting.GREEN));
             }
-            BlockedMilk.setMilkBlocked(((IEntityDataSaver) entity), false);
+            BlockedMilk.setMilkBlocked((IEntityDataSaver) entity, false);
 
             return ActionResult.SUCCESS;
         }

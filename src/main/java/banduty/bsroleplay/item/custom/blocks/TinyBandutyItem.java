@@ -1,6 +1,6 @@
 package banduty.bsroleplay.item.custom.blocks;
 
-import banduty.bsroleplay.item.client.blocks.TinyBandutyItemRenderer;
+import banduty.bsroleplay.item.client.blocks.TinyBandutyItemModel;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import software.bernie.geckolib.animatable.GeoItem;
@@ -10,6 +10,7 @@ import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache
 import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
+import software.bernie.geckolib.renderer.GeoItemRenderer;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -26,12 +27,12 @@ public class TinyBandutyItem extends BlockItem implements GeoItem {
     @Override
     public void createRenderer(Consumer<Object> consumer) {
         consumer.accept(new RenderProvider() {
-            private TinyBandutyItemRenderer renderer;
+            private GeoItemRenderer<TinyBandutyItem> renderer;
 
             @Override
-            public TinyBandutyItemRenderer getCustomRenderer() {
+            public GeoItemRenderer<TinyBandutyItem> getCustomRenderer() {
                 if (this.renderer == null)
-                    this.renderer = new TinyBandutyItemRenderer();
+                    this.renderer = new GeoItemRenderer<>(new TinyBandutyItemModel());
 
                 return this.renderer;
             }
@@ -49,7 +50,7 @@ public class TinyBandutyItem extends BlockItem implements GeoItem {
 
     }
 
-    private PlayState predicate(AnimationState animationState) {
+    private PlayState predicate(AnimationState<TinyBandutyItem> animationState) {
         animationState.getController().setAnimation(RawAnimation.begin().then("idle", Animation.LoopType.LOOP));
         return PlayState.STOP;
     }

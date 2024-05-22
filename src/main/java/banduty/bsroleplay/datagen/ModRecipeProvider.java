@@ -71,7 +71,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_LEGGINGS)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POLICE_BOOTS, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POLICE_BOOTS, 1) // todo
                 .pattern("   ")
                 .pattern("L L")
                 .pattern("LRL")
@@ -167,7 +167,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BLUE_PIRATE_LEGGINGS)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MINI_CROWN, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MINI_CROWN, 1) // todo
                 .pattern("   ")
                 .pattern("GRG")
                 .pattern("GGG")
@@ -318,7 +318,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.PROTECTION_BOOTS)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ROLEPLAY_CORE, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ROLEPLAY_CORE, 2) // todo
                 .pattern("   ")
                 .pattern("RGR")
                 .pattern("III")
@@ -330,7 +330,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROLEPLAY_CORE)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DEALER, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DEALER, 1) // todo
                 .pattern("BBB")
                 .pattern("WRW")
                 .pattern("   ")
@@ -342,7 +342,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.DEALER)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HAPPY_PILL, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HAPPY_PILL, 1) // todo
                 .pattern("   ")
                 .pattern(" W ")
                 .pattern(" P ")
@@ -352,7 +352,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FUSION_CORE), conditionsFromItem(ModItems.FUSION_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HAPPY_PILL)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SAD_PILL, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SAD_PILL, 1) // todo
                 .pattern("   ")
                 .pattern(" N ")
                 .pattern(" P ")
@@ -372,7 +372,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_leggings_black_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_BLACK, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_BLACK, 1) // todo
                 .pattern("   ")
                 .pattern("B B")
                 .pattern("BRB")
@@ -382,7 +382,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_boots_black_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_LEGGINGS_PURPLE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_LEGGINGS_PURPLE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.PURPLE_DYE)
                 .input('B', ModItems.LAWYER_LEGGINGS_BLACK)
@@ -390,7 +390,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_LEGGINGS_BLACK), conditionsFromItem(ModItems.LAWYER_LEGGINGS_BLACK))
                 .offerTo(exporter, new Identifier("lawyer_leggings_purple_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_PURPLE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_PURPLE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.PURPLE_DYE)
                 .input('B', ModItems.LAWYER_BOOTS_BLACK)
@@ -408,7 +408,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_leggings_purple_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_PURPLE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_PURPLE, 1) // todo
                 .pattern("   ")
                 .pattern("B B")
                 .pattern("BRB")
@@ -418,7 +418,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_boots_purple_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_LEGGINGS_BLACK, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_LEGGINGS_BLACK, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.BLACK_DYE)
                 .input('B', ModItems.LAWYER_LEGGINGS_PURPLE)
@@ -426,7 +426,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_LEGGINGS_PURPLE), conditionsFromItem(ModItems.LAWYER_LEGGINGS_PURPLE))
                 .offerTo(exporter, new Identifier("lawyer_leggings_black_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_BLACK, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BOOTS_BLACK, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.BLACK_DYE)
                 .input('B', ModItems.LAWYER_BOOTS_PURPLE)
@@ -446,7 +446,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_blackblue_chestplate_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKBLUE_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKBLUE_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.BLUE_DYE)
                 .input('B', ModItems.LAWYER_BLACKGOLD_CHESTPLATE)
@@ -454,7 +454,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_BLACKGOLD_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_BLACKGOLD_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_blackblue_chestplate_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKBLUE_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKBLUE_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.BLUE_DYE)
                 .input('B', ModItems.LAWYER_BLACKRED_CHESTPLATE)
@@ -462,7 +462,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_BLACKRED_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_BLACKRED_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_blackblue_chestplate_3"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKBLUE_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKBLUE_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.BLUE_DYE)
                 .input('B', ModItems.LAWYER_PURPLERED_CHESTPLATE)
@@ -482,7 +482,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_blackgold_chestplate_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKGOLD_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKGOLD_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.GOLD_INGOT)
                 .input('B', ModItems.LAWYER_BLACKBLUE_CHESTPLATE)
@@ -490,7 +490,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_BLACKBLUE_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_BLACKBLUE_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_blackgold_chestplate_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKGOLD_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKGOLD_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.GOLD_INGOT)
                 .input('B', ModItems.LAWYER_PURPLERED_CHESTPLATE)
@@ -498,7 +498,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_PURPLERED_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_PURPLERED_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_blackgold_chestplate_3"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKGOLD_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKGOLD_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.GOLD_INGOT)
                 .input('B', ModItems.LAWYER_BLACKRED_CHESTPLATE)
@@ -518,7 +518,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_blackred_chestplate_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKRED_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKRED_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.RED_DYE)
                 .input('B', ModItems.LAWYER_BLACKBLUE_CHESTPLATE)
@@ -526,7 +526,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_BLACKBLUE_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_BLACKBLUE_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_blackred_chestplate_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKRED_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKRED_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.RED_DYE)
                 .input('B', ModItems.LAWYER_PURPLERED_CHESTPLATE)
@@ -534,7 +534,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_PURPLERED_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_PURPLERED_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_blackred_chestplate_3"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKRED_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_BLACKRED_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.RED_DYE)
                 .input('B', ModItems.LAWYER_BLACKGOLD_CHESTPLATE)
@@ -554,7 +554,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier("lawyer_purplered_chestplate_1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_PURPLERED_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_PURPLERED_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.PURPLE_DYE)
                 .input('B', ModItems.LAWYER_BLACKBLUE_CHESTPLATE)
@@ -562,7 +562,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_BLACKBLUE_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_BLACKBLUE_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_purplered_chestplate_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_PURPLERED_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_PURPLERED_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.PURPLE_DYE)
                 .input('B', ModItems.LAWYER_BLACKRED_CHESTPLATE)
@@ -570,7 +570,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LAWYER_BLACKRED_CHESTPLATE), conditionsFromItem(ModItems.LAWYER_BLACKRED_CHESTPLATE))
                 .offerTo(exporter, new Identifier("lawyer_purplered_chestplate_3"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_PURPLERED_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAWYER_PURPLERED_CHESTPLATE, 1) // todo
                 .pattern(" BP")
                 .input('P', Items.PURPLE_DYE)
                 .input('B', ModItems.LAWYER_BLACKGOLD_CHESTPLATE)
@@ -590,7 +590,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ROLEPLAY_CORE), conditionsFromItem(ModItems.ROLEPLAY_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BRIEFCASE)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLACK_BRIEFCASE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLACK_BRIEFCASE, 1) // todo
                 .pattern(" BD")
                 .input('B', ModItems.BRIEFCASE)
                 .input('D', Items.BLACK_DYE)
@@ -598,7 +598,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BRIEFCASE), conditionsFromItem(ModItems.BRIEFCASE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BLACK_BRIEFCASE)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VIOLET_BRIEFCASE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VIOLET_BRIEFCASE, 1) // todo
                 .pattern(" BP")
                 .input('B', ModItems.BRIEFCASE)
                 .input('P', Items.PURPLE_DYE)
@@ -606,7 +606,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BRIEFCASE), conditionsFromItem(ModItems.BRIEFCASE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.VIOLET_BRIEFCASE)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BRIEFCASE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BRIEFCASE, 1) // todo
                 .pattern(" BP")
                 .input('B', ModItems.VIOLET_BRIEFCASE)
                 .input('P', Items.BROWN_DYE)
@@ -614,7 +614,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.VIOLET_BRIEFCASE), conditionsFromItem(ModItems.VIOLET_BRIEFCASE))
                 .offerTo(exporter, new Identifier("violet_briefcase_to_briefcase"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLACK_BRIEFCASE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLACK_BRIEFCASE, 1) // todo
                 .pattern(" BP")
                 .input('B', ModItems.VIOLET_BRIEFCASE)
                 .input('P', Items.BLACK_DYE)
@@ -622,7 +622,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.VIOLET_BRIEFCASE), conditionsFromItem(ModItems.VIOLET_BRIEFCASE))
                 .offerTo(exporter, new Identifier("violet_briefcase_to_black_briefcase"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BRIEFCASE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BRIEFCASE, 1) // todo
                 .pattern(" BP")
                 .input('B', ModItems.BLACK_BRIEFCASE)
                 .input('P', Items.BROWN_DYE)
@@ -630,7 +630,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BLACK_BRIEFCASE), conditionsFromItem(ModItems.BLACK_BRIEFCASE))
                 .offerTo(exporter, new Identifier("black_briefcase_to_briefcase"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VIOLET_BRIEFCASE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VIOLET_BRIEFCASE, 1) // todo
                 .pattern(" BP")
                 .input('B', ModItems.BLACK_BRIEFCASE)
                 .input('P', Items.PURPLE_DYE)
